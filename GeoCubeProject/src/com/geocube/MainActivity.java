@@ -1,21 +1,22 @@
 package com.geocube;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
-import android.graphics.drawable.GradientDrawable;
 import android.hardware.Sensor;
-import android.hardware.SensorEvent;
-import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.location.Location;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
-
-import java.util.List;
+import com.geocube.plan.CubeActivity;
 
 public class MainActivity extends Activity {
     TextView geoCoord;
     TextView deviceOrient;
+    Button seeCube;
+
     SensorManager mSensorManager;
 
     @Override
@@ -53,5 +54,14 @@ public class MainActivity extends Activity {
     private void setupUI() {
       geoCoord = (TextView) findViewById(R.id.geoCoord);
       deviceOrient = (TextView) findViewById(R.id.deviceOrient);
+      seeCube = (Button) findViewById(R.id.seeCube);
+
+      seeCube.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View view) {
+              Intent m = new Intent(MainActivity.this, CubeActivity.class);
+              startActivity(m);
+          }
+      });
     }
 }
