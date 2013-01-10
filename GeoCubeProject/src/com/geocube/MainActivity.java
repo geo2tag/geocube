@@ -10,7 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import com.geocube.plan.CubeActivity;
+import com.geocube.cube.CubeActivity;
 
 public class MainActivity extends Activity {
     TextView geoCoord;

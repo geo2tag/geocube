@@ -17,6 +17,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".plan.CubeActivity"></activity>
+        <activity android:name=".cube.CubeActivity"></activity>
     </application>
 </manifest>
