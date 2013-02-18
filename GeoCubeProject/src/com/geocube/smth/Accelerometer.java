@@ -1,4 +1,4 @@
-package com.geocube;
+package com.geocube.smth;
 
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;

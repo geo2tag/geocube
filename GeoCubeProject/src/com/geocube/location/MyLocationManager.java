@@ -1,4 +1,4 @@
-package com.geocube;
+package com.geocube.location;
 
 import android.content.Context;
 import android.content.res.Configuration;

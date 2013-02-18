@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="#5607a2" android:clickable="true"
+        >
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:text="geo2tag"
+            android:id="@+id/welcomeText" android:layout_row="0" android:layout_column="7"
+            android:layout_gravity="center"
+            android:password="false" android:textColor="#bd96ff" android:textSize="30sp"
+            android:textIsSelectable="false" android:layout_marginLeft="10sp" android:layout_marginRight="14dp"
+            android:layout_marginTop="10sp" android:layout_marginBottom="10sp" android:textStyle="bold|italic"/>
+    <Button
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+            android:id="@+id/loginButton" android:layout_gravity="center"/>
+    <Button
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:id="@+id/registerButton" android:layout_gravity="center"/>
+</LinearLayout>

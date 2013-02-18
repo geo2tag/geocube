@@ -1,4 +1,4 @@
-package com.geocube;
+package com.geocube.smth;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -10,9 +10,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import com.geocube.R;
 import com.geocube.cube.CubeActivity;
+import com.geocube.location.MyLocationManager;
 
-public class MainActivity extends Activity {
+public class SomeActivity extends Activity {
     TextView geoCoord;
     TextView deviceOrient;
     Button seeCube;
@@ -22,7 +24,7 @@ public class MainActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.some_main);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_NOSENSOR);
         setupUI();
 
@@ -59,7 +61,7 @@ public class MainActivity extends Activity {
       seeCube.setOnClickListener(new View.OnClickListener() {
           @Override
           public void onClick(View view) {
-              Intent m = new Intent(MainActivity.this, CubeActivity.class);
+              Intent m = new Intent(SomeActivity.this, CubeActivity.class);
               startActivity(m);
           }
       });
