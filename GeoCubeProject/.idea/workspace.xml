@@ -28,79 +28,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e516c59-067a-46ae-a52e-3fed42ed8076" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/loginRegisterActivities/LoginActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/mainActivity/MainStartActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/mainUserActivities/MainUserActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/ProjectConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/loginRegisterActivities/RegisterActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/login_activity.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/main_start_activity.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/main_user_activity.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/register_activity.xml" />
-      <change type="MOVED" beforePath="C:\gitrepos\diploma\geocube\GeoCubeProject\res\layout\main.xml" afterPath="$PROJECT_DIR$/res/layout/some_main.xml" />
-      <change type="MOVED" beforePath="C:\gitrepos\diploma\geocube\GeoCubeProject\src\com\geocube\Accelerometer.java" afterPath="$PROJECT_DIR$/src/com/geocube/smth/Accelerometer.java" />
-      <change type="MOVED" beforePath="C:\gitrepos\diploma\geocube\GeoCubeProject\src\com\geocube\MainActivity.java" afterPath="$PROJECT_DIR$/src/com/geocube/smth/SomeActivity.java" />
-      <change type="MOVED" beforePath="C:\gitrepos\diploma\geocube\GeoCubeProject\src\com\geocube\MyLocationManager.java" afterPath="$PROJECT_DIR$/src/com/geocube/location/MyLocationManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/geocube/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/geocube/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/objects/Channel.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/objects/Channel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/log/DefaultLogger.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/log/DefaultLogger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/Errno.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/Errno.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GeoCubeProject.iml" afterPath="$PROJECT_DIR$/GeoCubeProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/objects/GeoPoint.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/objects/GeoPoint.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/IRequest.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/IRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonAddUserRequest.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonAddUserRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonAddUserResponse.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonAddUserResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonApplyChannelRequest.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonApplyChannelRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonApplyChannelResponse.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonApplyChannelResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonApplyMarkRequest.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonApplyMarkRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonApplyMarkResponse.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonApplyMarkResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonAvailableChannelRequest.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonAvailableChannelRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonAvailableChannelResponse.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonAvailableChannelResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonBase.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonBaseRequest.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonBaseRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonBaseResponse.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonBaseResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterBaseRequest.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterBaseRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterBoxRequest.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterBoxRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterChannelRequest.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterChannelRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterChannelResponse.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterChannelResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterCircleRequest.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterCircleRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterCylinderRequest.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterCylinderRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterFenceRequest.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterFenceRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterPolygonRequest.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterPolygonRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterRectangleRequest.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterRectangleRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterResponse.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonLoadTagsRequest.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonLoadTagsRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonLoadTagsResponse.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonLoadTagsResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonLoginRequest.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonLoginRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonLoginResponse.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonLoginResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonRegisterUserReguest.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonRegisterUserReguest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonRegisterUserResponse.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonRegisterUserResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonRestorePasswordRequest.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonRestorePasswordRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonRestorePasswordResponse.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonRestorePasswordResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonSubscribeRequest.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonSubscribeRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonSubscribeResponse.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonSubscribeResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonSubscribedChannelsRequest.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonSubscribedChannelsRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonSubscribedChannelsResponse.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonSubscribedChannelsResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonUnsubscribeRequest.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonUnsubscribeRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonUnsubscribeResponse.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonUnsubscribeResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonVersionRequest.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonVersionRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonVersionResponse.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonVersionResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/log/Log.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/log/Log.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/log/Logger.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/log/Logger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/objects/Mark.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/objects/Mark.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/cube/MyCube.java" afterPath="$PROJECT_DIR$/src/com/geocube/cube/MyCube.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/geocube/R.java" afterPath="$PROJECT_DIR$/gen/com/geocube/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/objects/User.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/objects/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/loginRegisterActivities/LoginActivity.java" afterPath="$PROJECT_DIR$/src/com/geocube/loginRegisterActivities/LoginActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/mainUserActivities/MainUserActivity.java" afterPath="$PROJECT_DIR$/src/com/geocube/mainUserActivities/MainUserActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/loginRegisterActivities/RegisterActivity.java" afterPath="$PROJECT_DIR$/src/com/geocube/loginRegisterActivities/RegisterActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main_user_activity.xml" afterPath="$PROJECT_DIR$/res/layout/main_user_activity.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GeoCubeProject.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361183291448" ignored="false" />
+    <file path="/Dummy.txt" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361215940904" ignored="false" />
     <file path="/fragment.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361180030816" ignored="false" />
     <file path="/MyCube.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1360178778915" ignored="false" />
     <file path="/MainActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361173693006" ignored="false" />
@@ -115,10 +53,16 @@
     <file path="C:/TestAndroidGEO/src/ru/spb/osll/GDS/LoginActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361177511088" ignored="false" />
     <file path="C:/TestAndroidGEO/.idea/workspace.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361177656538" ignored="false" />
     <file path="/LoginActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361183653985" ignored="false" />
-    <file path="/RegisterActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361182566812" ignored="false" />
+    <file path="/RegisterActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361269487190" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/geocube/mainUserActivities.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361182728377" ignored="false" />
-    <file path="/MainUserActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361183412838" ignored="false" />
+    <file path="/MainUserActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361276874408" ignored="false" />
     <file path="/login_activity.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361183781304" ignored="false" />
+    <file path="/ChannelItem.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361271431933" ignored="false" />
+    <file path="/MyListItemView.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361270728858" ignored="false" />
+    <file path="/my_list_item_view.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361270680365" ignored="false" />
+    <file path="/MyListAdapter.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361271504195" ignored="false" />
+    <file path="/MyListItem.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361271269910" ignored="false" />
+    <file path="/main_user_activity.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361271804804" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +82,79 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/geocube/mainUserActivities/MainUserActivity.java" line="41" class="com.geocube.mainUserActivities.MainUserActivity" package="com.geocube.mainUserActivities">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/geocube/mainUserActivities/MainUserActivity.java" line="102" class="com.geocube.mainUserActivities.MainUserActivity" package="com.geocube.mainUserActivities">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonLoadTagsResponse.java" line="56" class="ru.spb.osll.json.JsonLoadTagsResponse" package="ru.spb.osll.json">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonLoadTagsResponse.java" line="57" class="ru.spb.osll.json.JsonLoadTagsResponse" package="ru.spb.osll.json">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonLoadTagsResponse.java" line="58" class="ru.spb.osll.json.JsonLoadTagsResponse" package="ru.spb.osll.json">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -172,23 +189,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonBaseRequest.java" line="68" class="ru.spb.osll.json.JsonBaseRequest" package="ru.spb.osll.json">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -198,67 +198,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/geocube/loginRegisterActivities/LoginActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="56" selection-start="772" selection-end="772" vertical-scroll-proportion="0.58352405">
-              <folding>
-                <element signature="e#1210#1939#0" expanded="true" />
-                <element signature="e#1930#1931#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register_activity.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/register_activity.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="43" column="41" selection-start="2258" selection-end="2258" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonLoginResponse.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonLoginResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="13" selection-start="1855" selection-end="1855" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainUserActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainUserActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/geocube/mainUserActivities/MainUserActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="56" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
+            <state line="105" column="111" selection-start="3602" selection-end="3602" vertical-scroll-proportion="0.7743363">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1867#2173#0" expanded="true" />
+                <element signature="e#2162#2163#0" expanded="true" />
+                <element signature="e#2456#2611#0" expanded="true" />
+                <element signature="e#2600#2601#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainStartActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/geocube/mainActivity/MainStartActivity.java">
+      <file leaf-file-name="View.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Android/sources/android-15/android/view/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="62" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.0">
+            <state line="3612" column="63" selection-start="134635" selection-end="134635" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/geocube/loginRegisterActivities/LoginActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="0" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1342#1578#0" expanded="true" />
-                <element signature="e#1567#1568#0" expanded="true" />
+                <element signature="e#1179#1908#0" expanded="true" />
+                <element signature="e#1899#1900#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/geocube/loginRegisterActivities/RegisterActivity.java">
+      <file leaf-file-name="JsonLoadTagsResponse.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonLoadTagsResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="16" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
+            <state line="59" column="0" selection-start="2336" selection-end="2336" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SomeActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/geocube/smth/SomeActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="65" selection-start="863" selection-end="920" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonLoadTagsRequest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonLoadTagsRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="115" selection-start="2216" selection-end="2300" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -282,30 +280,49 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/geocube/cube/MyCube.java" />
-        <option value="$PROJECT_DIR$/src/com/geocube/cube/filterRequests/FilterRequest.java" />
-        <option value="$PROJECT_DIR$/src/com/geocube/mainActivity/MainActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/geocube/SomeActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/geocube/smth/SomeActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/main_start_activity.xml" />
         <option value="$PROJECT_DIR$/src/com/geocube/Test.java" />
         <option value="$PROJECT_DIR$/src/com/geocube/ProjectConstants.java" />
         <option value="$PROJECT_DIR$/res/layout/register_activity.xml" />
         <option value="$PROJECT_DIR$/src/com/geocube/mainActivity/MainStartActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/geocube/loginRegisterActivities/RegisterActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/layout/main_user_activity.xml" />
-        <option value="$PROJECT_DIR$/src/com/geocube/mainUserActivities/MainUserActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/geocube/loginRegisterActivities/LoginActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/login_activity.xml" />
+        <option value="$PROJECT_DIR$/src/com/geocube/loginRegisterActivities/RegisterActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/my_list_item_view.xml" />
+        <option value="$PROJECT_DIR$/src/com/geocube/list/MyListItem.java" />
+        <option value="$PROJECT_DIR$/src/com/geocube/list/ChannelItem.java" />
+        <option value="$PROJECT_DIR$/src/com/geocube/list/MyListAdapter.java" />
+        <option value="$PROJECT_DIR$/src/com/geocube/list/MyListItemView.java" />
+        <option value="$PROJECT_DIR$/res/drawable/my_listview.xml" />
+        <option value="$PROJECT_DIR$/res/layout/main_user_activity.xml" />
+        <option value="$PROJECT_DIR$/src/com/geocube/loginRegisterActivities/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/geocube/mainUserActivities/MainUserActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AndroidDomInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -335,6 +352,17 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -513,6 +541,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeoCubeProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeoCubeProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geocube" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="cube" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -551,17 +601,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -573,7 +612,7 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/junit-4.9b3.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../t-systems/webMailApp" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -814,32 +853,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42475986" sideWeight="0.70089287" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30469584" sideWeight="0.70089287" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4246795" sideWeight="0.93415177" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.303953" sideWeight="0.4765625" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.9296875" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37611607" sideWeight="0.4855923" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46651787" sideWeight="0.4855923" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2779018" sideWeight="0.51600856" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32700893" sideWeight="0.49225014" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17123288" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17064847" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21985058" sideWeight="0.17745535" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3121212" sideWeight="0.8287671" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34263393" sideWeight="0.48025614" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21985058" sideWeight="0.3482143" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.06584822" sideWeight="0.48025614" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16862327" sideWeight="0.6238839" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -909,129 +948,124 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Program Files/Android/sources/android-15/android/app/Instrumentation.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/objects/Channel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1062" column="0" selection-start="40080" selection-end="40080" vertical-scroll-proportion="0.33208254" />
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Android/sources/android-15/android/app/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4465" column="0" selection-start="185918" selection-end="185918" vertical-scroll-proportion="0.33208254">
+        <state line="40" column="13" selection-start="1821" selection-end="1821" vertical-scroll-proportion="-0.8563218">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonAddUserRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/objects/Mark.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="13" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.13368283" />
+        <state line="37" column="13" selection-start="1769" selection-end="1769" vertical-scroll-proportion="-0.8172414">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonRegisterUserReguest.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/objects/GeoPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="61" selection-start="2339" selection-end="2339" vertical-scroll-proportion="0.5347313" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main_start_activity.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="37" column="13" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.07816092">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/geocube/ProjectConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="54" selection-start="386" selection-end="386" vertical-scroll-proportion="0.47309834">
+        <state line="10" column="39" selection-start="248" selection-end="280" vertical-scroll-proportion="0.1954023">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/geocube/loginRegisterActivities/RegisterActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/IRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="16" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
+        <state line="114" column="15" selection-start="3501" selection-end="3501" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonBaseRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonApplyMarkRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="22" selection-start="2266" selection-end="2266" vertical-scroll-proportion="0.50688076">
+        <state line="48" column="13" selection-start="1997" selection-end="1997" vertical-scroll-proportion="0.11724138">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonLoginResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonAvailableChannelRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="13" selection-start="1855" selection-end="1855" vertical-scroll-proportion="0.0">
+        <state line="60" column="41" selection-start="2378" selection-end="2378" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterBoxRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="68" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.48738533">
+        <state line="37" column="13" selection-start="1766" selection-end="1766" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main_user_activity.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterChannelRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="13" selection-start="1799" selection-end="1799" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/geocube/mainUserActivities/MainUserActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonAvailableChannelResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="56" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/geocube/mainActivity/MainStartActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="62" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1342#1578#0" expanded="true" />
-            <element signature="e#1567#1568#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/register_activity.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="43" column="41" selection-start="2258" selection-end="2258" vertical-scroll-proportion="0.0">
+        <state line="43" column="13" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/login_activity.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonLoadTagsRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="42" selection-start="461" selection-end="461" vertical-scroll-proportion="0.33876812">
+        <state line="55" column="115" selection-start="2216" selection-end="2300" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/geocube/smth/SomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="65" selection-start="863" selection-end="920" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Android/sources/android-15/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3612" column="63" selection-start="134635" selection-end="134635" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonLoadTagsResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="2336" selection-end="2336" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/geocube/loginRegisterActivities/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="56" selection-start="772" selection-end="772" vertical-scroll-proportion="0.58352405">
+        <state line="55" column="0" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#1210#1939#0" expanded="true" />
-            <element signature="e#1930#1931#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1179#1908#0" expanded="true" />
+            <element signature="e#1899#1900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/geocube/mainUserActivities/MainUserActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="111" selection-start="3602" selection-end="3602" vertical-scroll-proportion="0.7743363">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1867#2173#0" expanded="true" />
+            <element signature="e#2162#2163#0" expanded="true" />
+            <element signature="e#2456#2611#0" expanded="true" />
+            <element signature="e#2600#2601#0" expanded="true" />
           </folding>
         </state>
       </provider>

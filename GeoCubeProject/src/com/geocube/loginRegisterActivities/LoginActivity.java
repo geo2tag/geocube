@@ -9,7 +9,6 @@ import android.widget.EditText;
 import com.geocube.ProjectConstants;
 import com.geocube.R;
 import com.geocube.mainUserActivities.MainUserActivity;
-import org.json.JSONException;
 import org.json.JSONObject;
 import ru.spb.osll.json.JsonLoginRequest;
 import ru.spb.osll.json.JsonLoginResponse;

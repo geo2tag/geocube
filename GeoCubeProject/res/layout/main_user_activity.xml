@@ -4,10 +4,34 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent" android:background="#5607a2">
+    <Button
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:text="Channels"
+            android:id="@+id/channelButton"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"/>
 
-    <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="239dp"
-            android:text="Hello"
-            android:id="@+id/textView"/>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <!--android:background="@color/dark_blue"-->
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:orientation="vertical">
+
+            <ListView android:id="@+id/mListView"
+                      android:layout_height="350dp"
+                      android:layout_width="fill_parent"
+                      android:choiceMode="singleChoice"
+                      android:drawSelectorOnTop="true"
+                      android:scrollbars="vertical"
+                      android:listSelector="@drawable/my_listview"
+                      android:layout_weight="1"
+                      android:layout_gravity="center_horizontal"
+                    />
+          </LinearLayout>
+    </ScrollView>
 </LinearLayout>
