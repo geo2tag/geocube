@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.geocube.lists.maksList.MarkListItemView xmlns:android="http://schemas.android.com/apk/res/android"
+                                                    android:layout_width="fill_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:shrinkColumns="1"
+                                                    android:padding="6dp"
+                                                    android:clickable="false">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:shrinkColumns="2"
+                 android:padding="6dp"
+                 android:clickable="false">
+
+        <TableRow android:background="#80000000">
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="20sp"
+                      android:text="Title: "
+                    />
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:id="@+id/markTitle"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="20sp"
+                    />
+        </TableRow>
+
+
+        <TableRow android:background="#80000000">
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="12sp"
+                      android:text="Link: "/>
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:id="@+id/markLink"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="12sp"
+                    />
+        </TableRow>
+
+
+        <TableRow android:background="#80000000">
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="12sp"
+                      android:text="Description: "
+                    />
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:id="@+id/markDesc"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="12sp"
+                    />
+        </TableRow>
+
+
+        <TableRow android:background="#80000000">
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="12sp"
+                      android:text="Coordinates: "/>
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:id="@+id/markCoord"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="12sp"
+                    />
+        </TableRow>
+
+        <TableRow android:background="#80000000">
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="12sp"
+                      android:text="Date: "
+                    />
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:id="@+id/markDate"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="12sp"
+                    />
+        </TableRow>
+    </TableLayout>
+
+
+    <TableRow android:background="#80000000">
+        <ImageView android:id="@+id/image"
+                   android:layout_height="wrap_content"
+                   android:layout_width="fill_parent"
+                   android:layout_margin="10dip"/>
+        </TableRow>
+
+
+</com.geocube.lists.maksList.MarkListItemView>

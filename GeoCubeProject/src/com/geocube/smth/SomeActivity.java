@@ -11,7 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import com.geocube.R;
-import com.geocube.cube.CubeActivity;
+import com.geocube.graphics.cube.CubeActivity;
 import com.geocube.location.MyLocationManager;
 
 public class SomeActivity extends Activity {

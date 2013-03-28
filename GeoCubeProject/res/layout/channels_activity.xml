@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="fill_parent"-->
+                <!--android:id="@+id/scrollView">-->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent" android:background="#5607a2">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avaliable channels:"
+            android:id="@+id/textView" android:layout_gravity="left|center_vertical" android:textSize="20sp"
+            android:layout_margin="10sp" android:textStyle="italic"/>
+
+        <ListView
+                android:id="@+id/channelsList"
+                android:layout_height="203dp"
+                android:layout_width="fill_parent"
+                android:choiceMode="singleChoice"
+                android:drawSelectorOnTop="true"
+                android:scrollbars="vertical"
+                android:listSelector="@drawable/my_listview"
+                android:layout_gravity="center_horizontal"/>
+    <Button
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:text="Channel marks"
+            android:id="@+id/channelMarks"
+            android:layout_gravity="left|center_vertical"
+            android:layout_margin="10sp"
+            android:background="@drawable/my_button"/>
+
+    <!--android:layout_weight="1"-->
+
+</LinearLayout>
+    <!--</ScrollView>-->

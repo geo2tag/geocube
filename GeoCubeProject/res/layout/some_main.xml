@@ -23,6 +23,7 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:text="Open GL"
+            android:background="@drawable/my_button"
             />
 </LinearLayout>
 

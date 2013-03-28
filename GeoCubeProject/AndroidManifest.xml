@@ -11,7 +11,7 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
 
     <application android:label="@string/app_name" android:icon="@drawable/projectavatar">
-        <activity android:name=".mainActivity.MainStartActivity"
+        <activity android:name=".activities.mainActivity.MainStartActivity"
                   android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -19,11 +19,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".cube.CubeActivity"></activity>
+        <activity android:name=".graphics.cube.CubeActivity"></activity>
         <activity android:name=".smth.SomeActivity"></activity>
-        <activity android:name=".loginRegisterActivities.LoginActivity"></activity>
-        <activity android:name=".loginRegisterActivities.RegisterActivity"></activity>
-        <activity android:name=".mainUserActivities.MainUserActivity"></activity>
+        <activity android:name=".activities.loginRegisterActivities.LoginActivity"></activity>
+        <activity android:name=".activities.loginRegisterActivities.RegisterActivity"></activity>
+        <activity android:name=".activities.mainUserActivities.MainUserActivity"></activity>
+        <activity android:name=".channels.ChannelsActivity"></activity>
+        <activity android:name=".channels.MarkActivity"></activity>
 
     </application>
 </manifest>

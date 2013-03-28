@@ -59,10 +59,10 @@ public class JsonLoadTagsResponse extends JsonBaseResponse {
 				JSONArray jchannelsItems = jchannels.getJSONArray("items");
 				for (int i = 0; i < jchannelsItems.length(); i++) {
 					JSONObject jchannel = jchannelsItems.getJSONObject(i);
-					String name = jchannel.getString("name");
+					//String name = jchannel.getString("name");
 					JSONArray jmarks = jchannel.getJSONArray("items");
 					Channel channel = new Channel();
-					channel.setName(name);
+					//channel.setName(name);
 					for (int j = 0; j < jmarks.length(); j++) {
 						Mark mark = new Mark();
 						mark.setUser(jmarks.getJSONObject(j).getString("user"));
