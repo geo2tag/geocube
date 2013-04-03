@@ -17,15 +17,13 @@ public class Touch implements View.OnTouchListener {
     private float totalTrans = 0.001f;
 
     public float getTotalTrans() {
-        if (totalTrans > -200 && totalTrans < 0.1f)
           return totalTrans;
-        else return 0;
     }
 
     @Override
     public boolean onTouch(View v, MotionEvent event) {
         float oldDist = 0;
-        float newDist = 0;
+        float newDist;
 
         switch (event.getAction() & MotionEvent.ACTION_MASK) {
             case MotionEvent.ACTION_DOWN:
@@ -46,9 +44,10 @@ public class Touch implements View.OnTouchListener {
 
                 } else if (mode == ZOOM) {
                   newDist = spacing(event);
-                  trans = (oldDist - newDist) / 200;
+                  trans = (oldDist - newDist) / 200.0f;
                   totalTrans += trans;
                 }
+
                 break;
 
 

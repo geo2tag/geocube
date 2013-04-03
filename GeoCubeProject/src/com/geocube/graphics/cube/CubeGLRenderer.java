@@ -1,7 +1,6 @@
 package com.geocube.graphics.cube;
 
 import android.opengl.GLSurfaceView;
-import android.opengl.GLU;
 
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
@@ -17,6 +16,7 @@ public class CubeGLRenderer implements GLSurfaceView.Renderer {
 
     private MyCube mCube;
     private float mCubeRotation;
+    private float mTotalTrans;
 
     private Touch touch;
 
@@ -34,18 +34,11 @@ public class CubeGLRenderer implements GLSurfaceView.Renderer {
     public void onSurfaceCreated(GL10 gl, EGLConfig config) {
         mCube = new MyCube(x, y, z, x1, y1, z1);
 
-        // Set the background color to black ( rgba ).
-        gl.glClearColor(0.0f, 0.0f, 0.0f, 0.5f);  // OpenGL docs.
-        // Enable Smooth Shading, default not really needed.
-//        gl.glShadeModel(GL10.GL_SMOOTH);// OpenGL docs.
-        // Depth buffer setup.
-        gl.glClearDepthf(1.0f);// OpenGL docs.
-        // Enables depth testing.
-        gl.glEnable(GL10.GL_DEPTH_TEST);// OpenGL docs.
-        // The type of depth testing to do.
-        gl.glDepthFunc(GL10.GL_LEQUAL);// OpenGL docs.
-        // Really nice perspective calculations.
-        gl.glHint(GL10.GL_PERSPECTIVE_CORRECTION_HINT, // OpenGL docs.
+        gl.glClearColor(0.0f, 0.0f, 0.0f, 0.5f);
+        gl.glClearDepthf(1.0f);
+        gl.glEnable(GL10.GL_DEPTH_TEST);
+        gl.glDepthFunc(GL10.GL_LEQUAL);
+        gl.glHint(GL10.GL_PERSPECTIVE_CORRECTION_HINT,
                 GL10.GL_NICEST);
 
     }
@@ -53,21 +46,17 @@ public class CubeGLRenderer implements GLSurfaceView.Renderer {
 
     @Override
     public void onSurfaceChanged(GL10 gl, int width, int height) {
-        // Sets the current view port to the new size.
-        gl.glViewport(0, 0, width, height);// OpenGL docs.
-        // Select the projection matrix
-        gl.glMatrixMode(GL10.GL_PROJECTION);// OpenGL docs.
-        // Reset the projection matrix
-        gl.glLoadIdentity();// OpenGL docs.
-        // Calculate the aspect ratio of the window
-        GLU.gluPerspective(gl, 45.0f, (float) width / (float) height, 0.1f, 200.0f);
-
         gl.glViewport(0, 0, width, height);
-
-        // Select the modelview matrix
-        gl.glMatrixMode(GL10.GL_MODELVIEW);// OpenGL docs.
-        // Reset the modelview matrix
-        gl.glLoadIdentity();// OpenGL docs.
+        gl.glMatrixMode(GL10.GL_PROJECTION);
+        gl.glLoadIdentity();
+//        GLU.gluPerspective(gl, 45.0f, (float) width / (float) height, 0.1f, 200.0f);
+        final float aspect = (float) width / (float) height;
+        final float fh = 0.5f;
+        final float fw = fh * aspect;
+        gl.glFrustumf(-fw, fw, -fh, fh, 1.0f, 250.0f);
+        gl.glViewport(0, 0, width, height);
+        gl.glMatrixMode(GL10.GL_MODELVIEW);
+        gl.glLoadIdentity();
     }
 
     public CubeGLRenderer(Touch touch) {
@@ -76,29 +65,22 @@ public class CubeGLRenderer implements GLSurfaceView.Renderer {
 
     @Override
     public void onDrawFrame(GL10 gl) {
-        // Clears the screen and depth buffer.
-        gl.glClear(GL10.GL_COLOR_BUFFER_BIT | // OpenGL docs.
+        gl.glClear(GL10.GL_COLOR_BUFFER_BIT |
                 GL10.GL_DEPTH_BUFFER_BIT);
 
-        gl.glMatrixMode(GL10.GL_MODELVIEW);
-
         gl.glLoadIdentity();
-        gl.glPushMatrix();
-        gl.glTranslatef(0.0f, 0.0f, -150.0f);
+        mTotalTrans = -150.0f + touch.getTotalTrans();
+
+        if (mTotalTrans > -200.0f && mTotalTrans < 0.1f) {
+            gl.glTranslatef(0.0f, 0.0f, mTotalTrans);
+        }
+
         gl.glRotatef(mCubeRotation, 1.0f, 1.0f, 1.0f);
 
 
-        gl.glPushMatrix();
         mCube.draw(gl);
-
         gl.glLoadIdentity();
-
         mCubeRotation -= 1f;
-
-        gl.glPushMatrix();
-//        gl.glTranslatef(0.0f, 0.0f, touch.getTotalTrans());
-        gl.glScalef(1 - touch.getTotalTrans() / 2000, 1 - touch.getTotalTrans() / 2000, 0);
-        gl.glPopMatrix();
     }
 
 
