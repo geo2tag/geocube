@@ -63,7 +63,7 @@ public class Touch implements View.OnTouchListener {
                        trans = (newDist - oldDist) / 200.0f;
                        float probTrans = totalTrans + trans - 150.0f;
 
-                       if (probTrans < 1.5f) {
+                       if (probTrans < 10.0f) {
                            totalTrans += trans;
                            Log.d("zoomOut-zoomIn", "Zoom In!!! " + "trans: " + trans + ", totalTrans: " + totalTrans);
                        }

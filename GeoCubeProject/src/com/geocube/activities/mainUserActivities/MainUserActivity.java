@@ -30,6 +30,10 @@ public class MainUserActivity extends Activity {
     double latitude;
     double longitude;
     double radius = 500;
+
+    double deltaX = 30;
+    double deltaY = 30;
+
     String timeFrom = "01 01 1990 22:10:00.111";
     String timeTo = new Date().toString();
 
@@ -64,10 +68,10 @@ public class MainUserActivity extends Activity {
         scanFilters.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                double x = latitude;
-                double x1 = x + 30;
-                double y = longitude;
-                double y1 = y + 30;
+                double x = latitude - deltaX;
+                double x1 = latitude + deltaX;
+                double y = longitude - deltaY;
+                double y1 = longitude + deltaY;
                 double z = location.getAltitude();
                 double z1 = z + radius;
 

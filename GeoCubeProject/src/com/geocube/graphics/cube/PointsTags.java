@@ -5,49 +5,44 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
 
-
-public class MyCube {
+public class PointsTags {
     private FloatBuffer mVertexBuffer;
     private FloatBuffer mColorBuffer;
-    private ByteBuffer  mIndexBuffer;
+    private ByteBuffer mIndexBuffer;
 
     private float vertices[];
 
     private float colors[] = {
-            0.5f,  0.0f,  0.5f,  0.5f,
-            0.5f,  0.0f,  0.5f,  0.5f,
-            0.3f,  0.0f,  0.3f,  0.5f,
-            0.3f,  0.0f,  0.3f,  0.5f,
-            0.7f,  0.0f,  0.7f,  0.5f,
-            0.7f,  0.0f,  0.7f,  0.5f,
-            0.6f,  0.0f,  0.6f,  0.5f,
-            0.6f,  0.0f,  0.6f,  0.5f,
+            0.2f,  1.0f,  0.0f,  0.5f,
+            0.2f,  1.0f,  0.0f,  0.5f,
+            0.2f,  1.0f,  0.0f,  0.5f,
+            0.2f,  1.0f,  0.0f,  0.5f,
+            0.2f,  1.0f,  0.0f,  0.5f,
+            0.2f,  1.0f,  0.0f,  0.5f,
+            0.2f,  1.0f,  0.0f,  0.5f,
+            0.2f,  1.0f,  0.0f,  0.5f,
     };
 
     private final byte indices[] = {
-            0, 4, 5, 0, 5, 1,
-            1, 5, 6, 1, 6, 2,
-            2, 6, 7, 2, 7, 3,
-            3, 7, 4, 3, 4, 0,
-            4, 7, 6, 4, 6, 5,
-            3, 0, 1, 3, 1, 2
+            0, 1, 2, 3, 4, 5,
+            6, 7
     };
 
-    public MyCube(double x, double y, double z, double x1, double y1, double z1) {
+    public PointsTags(double x, double y, double z, double x1, double y1, double z1) {
         double h = (y1 - y);
         double w = (x1 - x);
         double d = (z1 - z) / 10;
 
         vertices = new float[]
                 {
-                        (float) (-1.0f * w / 2.0f), (float) (-1.0f * h / 2.0), (float) (-1.0f * d / 2.0),
-                        (float) (1.0f * w / 2.0f), (float) (-1.0f * h / 2.0), (float) (-1.0f * d / 2.0),
-                        (float) (1.0f * w / 2.0f), (float) (1.0f * h / 2.0), (float) (-1.0f * d / 2.0),
-                        (float) (-1.0f * w / 2.0f), (float) (1.0f * h / 2.0), (float) (-1.0f * d / 2.0),
-                        (float) (-1.0f * w / 2.0f), (float) (-1.0f * h / 2.0), (float) (1.0f * d / 2.0),
-                        (float) (1.0f * w / 2.0f), (float) (-1.0f * h / 2.0), (float) (1.0f * d / 2.0),
-                        (float) (1.0f * w / 2.0f), (float) (1.0f * h / 2.0), (float) (1.0f * d / 2.0),
-                        (float) (-1.0f * w / 2.0f), (float) (1.0f * h / 2.0), (float) (1.0f * d / 2.0)
+                        (float) (-1.0f * w / 4.0f), (float) (-1.0f * h / 4.0), (float) (-1.0f * d / 4.0),
+                        (float) (1.0f * w / 4.0f), (float) (-1.0f * h / 4.0), (float) (-1.0f * d / 4.0),
+                        (float) (1.0f * w / 4.0f), (float) (1.0f * h / 4.0), (float) (-1.0f * d / 4.0),
+                        (float) (-1.0f * w / 4.0f), (float) (1.0f * h / 4.0), (float) (-1.0f * d / 4.0),
+                        (float) (-1.0f * w / 4.0f), (float) (-1.0f * h / 4.0), (float) (1.0f * d / 4.0),
+                        (float) (1.0f * w / 4.0f), (float) (-1.0f * h / 4.0), (float) (1.0f * d / 4.0),
+                        (float) (1.0f * w / 4.0f), (float) (1.0f * h / 4.0), (float) (1.0f * d / 4.0),
+                        (float) (-1.0f * w / 4.0f), (float) (1.0f * h / 4.0), (float) (1.0f * d / 4.0)
                 };
 
         ByteBuffer byteBuf = ByteBuffer.allocateDirect(vertices.length * 4);
@@ -79,7 +74,8 @@ public class MyCube {
         gl.glEnableClientState(GL10.GL_VERTEX_ARRAY);
         gl.glEnableClientState(GL10.GL_COLOR_ARRAY);
 
-        gl.glDrawElements(GL10.GL_TRIANGLES, 36, GL10.GL_UNSIGNED_BYTE,
+        gl.glPointSize(10);
+        gl.glDrawElements(GL10.GL_POINTS, 8, GL10.GL_UNSIGNED_BYTE,
                 mIndexBuffer);
 
         gl.glDisableClientState(GL10.GL_VERTEX_ARRAY);

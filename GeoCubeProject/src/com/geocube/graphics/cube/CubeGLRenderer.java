@@ -16,6 +16,8 @@ public class CubeGLRenderer implements GLSurfaceView.Renderer {
     private static double z1;
 
     private MyCube mCube;
+    private PointsTags mPoints;
+
     private float mCubeRotation;
     private float mTotalTrans;
 
@@ -34,6 +36,7 @@ public class CubeGLRenderer implements GLSurfaceView.Renderer {
     @Override
     public void onSurfaceCreated(GL10 gl, EGLConfig config) {
         mCube = new MyCube(x, y, z, x1, y1, z1);
+        mPoints = new PointsTags(x, y, z, x1, y1, z1);
 
         gl.glClearColor(0.0f, 0.0f, 0.0f, 0.5f);
         gl.glClearDepthf(1.0f);
@@ -69,6 +72,9 @@ public class CubeGLRenderer implements GLSurfaceView.Renderer {
         gl.glClear(GL10.GL_COLOR_BUFFER_BIT |
                 GL10.GL_DEPTH_BUFFER_BIT);
 
+        gl.glBlendFunc(GL10.GL_SRC_ALPHA, GL10.GL_ONE_MINUS_SRC_ALPHA);
+        gl.glEnable(GL10.GL_BLEND );
+
         gl.glLoadIdentity();
         float recievedTrans = touch.getTotalTrans();
         mTotalTrans = -150.0f + recievedTrans;
@@ -78,8 +84,9 @@ public class CubeGLRenderer implements GLSurfaceView.Renderer {
 
         gl.glRotatef(mCubeRotation, 1.0f, 1.0f, 1.0f);
 
-
+        mPoints.draw(gl);
         mCube.draw(gl);
+
         gl.glLoadIdentity();
         mCubeRotation -= 1f;
     }
