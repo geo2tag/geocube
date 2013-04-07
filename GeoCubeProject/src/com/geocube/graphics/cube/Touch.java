@@ -1,6 +1,7 @@
 package com.geocube.graphics.cube;
 
 import android.util.FloatMath;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
@@ -16,14 +17,15 @@ public class Touch implements View.OnTouchListener {
     private float trans = 0.1f;
     private float totalTrans = 0.001f;
 
+    float oldDist = 0;
+    float newDist;
+
     public float getTotalTrans() {
           return totalTrans;
     }
 
     @Override
     public boolean onTouch(View v, MotionEvent event) {
-        float oldDist = 0;
-        float newDist;
 
         switch (event.getAction() & MotionEvent.ACTION_MASK) {
             case MotionEvent.ACTION_DOWN:
@@ -43,9 +45,30 @@ public class Touch implements View.OnTouchListener {
                 if (mode == DRAG) {
 
                 } else if (mode == ZOOM) {
-                  newDist = spacing(event);
-                  trans = (oldDist - newDist) / 200.0f;
-                  totalTrans += trans;
+                   newDist = spacing(event);
+
+                    Log.d("Spacing: ", "OldDist = " + oldDist + ", newDist = " + newDist);
+
+                   /*zoom out*/
+                   if (newDist < oldDist) {
+                       trans = (oldDist - newDist) / 200.0f;
+                       float probTrans = totalTrans - trans - 150.0f;
+
+                       if (probTrans > -200.0f) {
+                           totalTrans -= trans;
+                           Log.d("zoomOut-zoomIn", "Zoom out!!! " + "trans: " + trans + ", totalTrans: " + totalTrans);
+                       }
+                   /*zoom in*/
+                   }  else if (newDist > oldDist){
+                       trans = (newDist - oldDist) / 200.0f;
+                       float probTrans = totalTrans + trans - 150.0f;
+
+                       if (probTrans < 1.5f) {
+                           totalTrans += trans;
+                           Log.d("zoomOut-zoomIn", "Zoom In!!! " + "trans: " + trans + ", totalTrans: " + totalTrans);
+                       }
+                   }
+
                 }
 
                 break;

@@ -1,6 +1,7 @@
 package com.geocube.graphics.cube;
 
 import android.opengl.GLSurfaceView;
+import android.util.Log;
 
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
@@ -69,11 +70,11 @@ public class CubeGLRenderer implements GLSurfaceView.Renderer {
                 GL10.GL_DEPTH_BUFFER_BIT);
 
         gl.glLoadIdentity();
-        mTotalTrans = -150.0f + touch.getTotalTrans();
-
-        if (mTotalTrans > -200.0f && mTotalTrans < 0.1f) {
-            gl.glTranslatef(0.0f, 0.0f, mTotalTrans);
-        }
+        float recievedTrans = touch.getTotalTrans();
+        mTotalTrans = -150.0f + recievedTrans;
+        gl.glTranslatef(0.0f, 0.0f, mTotalTrans);
+        Log.d("Translation: ", String.valueOf(mTotalTrans));
+        Log.d("Recieved trans: ", String.valueOf(recievedTrans));
 
         gl.glRotatef(mCubeRotation, 1.0f, 1.0f, 1.0f);
 
