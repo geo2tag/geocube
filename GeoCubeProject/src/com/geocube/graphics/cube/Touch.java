@@ -16,12 +16,20 @@ public class Touch implements View.OnTouchListener {
 
     private float trans = 0.1f;
     private float totalTrans = 0.001f;
+    private float totalRotation = 0.1f;
 
     float oldDist = 0;
     float newDist;
 
+    float oldRot;
+    float newRot;
+
     public float getTotalTrans() {
           return totalTrans;
+    }
+
+    public float getTotalRotation() {
+        return totalRotation;
     }
 
     @Override
@@ -30,10 +38,12 @@ public class Touch implements View.OnTouchListener {
         switch (event.getAction() & MotionEvent.ACTION_MASK) {
             case MotionEvent.ACTION_DOWN:
               mode = DRAG;
+              oldRot = event.getX();
               break;
 
             case MotionEvent.ACTION_POINTER_UP:
                mode = NONE;
+               totalRotation = 0;
                break;
 
             case MotionEvent.ACTION_POINTER_DOWN:
@@ -43,7 +53,9 @@ public class Touch implements View.OnTouchListener {
 
             case MotionEvent.ACTION_MOVE:
                 if (mode == DRAG) {
-
+                   newRot = event.getX();
+                   totalRotation = (newRot - oldRot) / 20.0f;
+                   oldRot = newRot;
                 } else if (mode == ZOOM) {
                    newDist = spacing(event);
 

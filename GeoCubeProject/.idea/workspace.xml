@@ -28,17 +28,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e516c59-067a-46ae-a52e-3fed42ed8076" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/graphics/cube/PointsTags.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeGLRenderer.java" afterPath="$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeGLRenderer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/activities/mainUserActivities/MainUserActivity.java" afterPath="$PROJECT_DIR$/src/com/geocube/activities/mainUserActivities/MainUserActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/graphics/cube/MyCube.java" afterPath="$PROJECT_DIR$/src/com/geocube/graphics/cube/MyCube.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterChannelResponse.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterChannelResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/graphics/cube/PointsTags.java" afterPath="$PROJECT_DIR$/src/com/geocube/graphics/cube/PointsTags.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/graphics/cube/Touch.java" afterPath="$PROJECT_DIR$/src/com/geocube/graphics/cube/Touch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GeoCubeProject.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365324305612" ignored="false" />
-    <file path="/fragment.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1364931799862" ignored="false" />
+    <file path="/Dummy.txt" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365538463847" ignored="false" />
+    <file path="/fragment.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365538619658" ignored="false" />
     <file path="/MyCube.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365352985747" ignored="false" />
     <file path="/MainActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361173693006" ignored="false" />
     <file path="/FilterRequest.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361173458142" ignored="false" />
@@ -77,14 +76,14 @@
     <file path="/ErrorMessages.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1362561712771" ignored="false" />
     <file path="/register_activity.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1364412913352" ignored="false" />
     <file path="/CubeActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1364364964629" ignored="false" />
-    <file path="/CubeGLRenderer.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365354661123" ignored="false" />
+    <file path="/CubeGLRenderer.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365539171895" ignored="false" />
     <file path="/CubeGLSurfaceView.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1364287158763" ignored="false" />
     <file path="/CubeView.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1364291675273" ignored="false" />
-    <file path="/Touch.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365334514614" ignored="false" />
+    <file path="/Touch.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365539309773" ignored="false" />
     <file path="/my_button.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1364367923603" ignored="false" />
     <file path="/main_start_activity.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1364412828762" ignored="false" />
     <file path="C:/compgraphics/Lab05/src/Fraktal.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1364932748973" ignored="false" />
-    <file path="/PointsTags.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365353167180" ignored="false" />
+    <file path="/PointsTags.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365364534765" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +119,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -154,7 +154,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -167,11 +166,17 @@
       <file leaf-file-name="MainUserActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/geocube/activities/mainUserActivities/MainUserActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="49" selection-start="3431" selection-end="3431" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#2102#2881#0" expanded="true" />
-                <element signature="e#2870#2871#0" expanded="true" />
-              </folding>
+            <state line="35" column="32" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CubeActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="54" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -179,25 +184,25 @@
       <file leaf-file-name="CubeGLRenderer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeGLRenderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="42" selection-start="2733" selection-end="2733" vertical-scroll-proportion="0.0">
+            <state line="87" column="57" selection-start="2663" selection-end="2663" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyCube.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cube/MyCube.java">
+      <file leaf-file-name="Touch.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cube/Touch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="36" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0">
+            <state line="45" column="33" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.48795182">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PointsTags.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PointsTags.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cube/PointsTags.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="24" selection-start="2925" selection-end="2925" vertical-scroll-proportion="0.7789203">
+            <state line="80" column="7" selection-start="3029" selection-end="3029" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -234,11 +239,11 @@
         <option value="$PROJECT_DIR$/res/layout/main_user_activity.xml" />
         <option value="$PROJECT_DIR$/res/layout/register_activity.xml" />
         <option value="$PROJECT_DIR$/res/layout/channels_activity.xml" />
-        <option value="$PROJECT_DIR$/src/com/geocube/graphics/cube/Touch.java" />
-        <option value="$PROJECT_DIR$/src/com/geocube/activities/mainUserActivities/MainUserActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeGLRenderer.java" />
         <option value="$PROJECT_DIR$/src/com/geocube/graphics/cube/MyCube.java" />
         <option value="$PROJECT_DIR$/src/com/geocube/graphics/cube/PointsTags.java" />
+        <option value="$PROJECT_DIR$/src/com/geocube/activities/mainUserActivities/MainUserActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeGLRenderer.java" />
+        <option value="$PROJECT_DIR$/src/com/geocube/graphics/cube/Touch.java" />
       </list>
     </option>
   </component>
@@ -295,6 +300,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -597,7 +603,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -618,9 +623,9 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -683,6 +688,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -709,19 +727,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -864,21 +869,21 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12157534" sideWeight="0.4855923" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14726028" sideWeight="0.4855923" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14383562" sideWeight="0.5174242" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22773972" sideWeight="0.49225014" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2260274" sideWeight="0.49225014" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3030822" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24919957" sideWeight="0.953125" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27651516" sideWeight="0.7106164" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28938356" sideWeight="0.47727272" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27651516" sideWeight="0.89726025" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10273973" sideWeight="0.47727272" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4236111" sideWeight="0.9754464" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16862327" sideWeight="0.6238839" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -957,11 +962,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/channels_activity.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="39" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.39555556" />
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://C:/Program Files/Android/sources/android-15/android/view/View.java">
@@ -1010,50 +1015,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cube/Touch.java">
+    <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cube/PointsTags.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="36" selection-start="1767" selection-end="1767" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="80" column="7" selection-start="3029" selection-end="3029" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cube/MyCube.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="48" selection-start="442" selection-end="442" vertical-scroll-proportion="0.4367589">
+        <state line="81" column="9" selection-start="3036" selection-end="3036" vertical-scroll-proportion="0.48692152">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/geocube/activities/mainUserActivities/MainUserActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="49" selection-start="3431" selection-end="3431" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2102#2881#0" expanded="true" />
-            <element signature="e#2870#2871#0" expanded="true" />
-          </folding>
+        <state line="35" column="32" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="54" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeGLRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="42" selection-start="2733" selection-end="2733" vertical-scroll-proportion="0.0">
+        <state line="87" column="57" selection-start="2663" selection-end="2663" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cube/MyCube.java">
+    <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cube/Touch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="36" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0">
+        <state line="45" column="33" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.48795182">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cube/PointsTags.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="24" selection-start="2925" selection-end="2925" vertical-scroll-proportion="0.7789203">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

@@ -88,7 +88,7 @@ public class CubeGLRenderer implements GLSurfaceView.Renderer {
         mCube.draw(gl);
 
         gl.glLoadIdentity();
-        mCubeRotation -= 1f;
+        mCubeRotation += touch.getTotalRotation();
     }
 
 
