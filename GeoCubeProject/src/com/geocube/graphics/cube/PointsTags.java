@@ -78,7 +78,6 @@ public class PointsTags {
         gl.glDrawElements(GL10.GL_POINTS, 8, GL10.GL_UNSIGNED_BYTE,
                 mIndexBuffer);
 
-
         gl.glDisableClientState(GL10.GL_VERTEX_ARRAY);
         gl.glDisableClientState(GL10.GL_COLOR_ARRAY);
 

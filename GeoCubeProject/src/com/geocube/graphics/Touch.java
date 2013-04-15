@@ -1,4 +1,4 @@
-package com.geocube.graphics.cube;
+package com.geocube.graphics;
 
 import android.util.FloatMath;
 import android.util.Log;

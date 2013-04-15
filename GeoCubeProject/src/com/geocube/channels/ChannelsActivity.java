@@ -44,7 +44,7 @@ public class ChannelsActivity extends Activity {
 
         channelsList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> myAdapter, View myView, int myItemInt, long mylng) {
-                myView.setBackgroundColor(Color.RED);
+                myView.setBackgroundColor(Color.BLUE);
                 ((ChannelListAdapter) myAdapter.getAdapter()).setItemSelected(myItemInt);
             }
         });

@@ -4,11 +4,11 @@ import android.app.Activity;
 import android.content.pm.ActivityInfo;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
+import com.geocube.graphics.Touch;
 
 
 public class CubeActivity extends Activity {
     private static GLSurfaceView mGLView;
-
 
     public static void setCoordinates(double x, double x1, double y, double y1, double z, double z1) {
         CubeGLRenderer.setCoordinates(x, x1, y, y1, z, z1);

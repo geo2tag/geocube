@@ -22,4 +22,13 @@
             android:layout_margin="15dp"
             android:background="@drawable/my_button"/>
 
+    <Button
+            android:layout_width="126dp"
+            android:layout_height="50dp"
+            android:text="Live mode"
+            android:id="@+id/liveModeButton"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:background="@drawable/my_button"/>
+
 </LinearLayout>

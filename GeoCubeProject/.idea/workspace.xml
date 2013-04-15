@@ -6,7 +6,7 @@
         <option name="device" value="2.7in QVGA" />
         <option name="deviceConfiguration" value="Portrait" />
         <option name="targetHashString" value="android-15" />
-        <option name="theme" value="Theme.Black" />
+        <option name="theme" value="Theme" />
       </profile>
     </option>
     <option name="selection" value="[Full]" />
@@ -28,21 +28,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e516c59-067a-46ae-a52e-3fed42ed8076" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/graphics/cylinder/CylinderActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/graphics/cylinder/CylinderGLRenderer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/lists/filtersList/FilterItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/lists/filtersList/FilterListAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/lists/filtersList/FilterListItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/lists/filtersList/FilterListItemView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/activities/filters/FiltersActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/activities/liveMode/LiveModeActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/graphics/cylinder/MyCylinder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/graphics/cylinder/PointsTags.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/background.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/filters_activity.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/my_list_item_view_filters.xml" />
+      <change type="MOVED" beforePath="C:\gitrepos\diploma\geocube\GeoCubeProject\src\com\geocube\graphics\cube\Touch.java" afterPath="$PROJECT_DIR$/src/com/geocube/graphics/Touch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/channels/ChannelsActivity.java" afterPath="$PROJECT_DIR$/src/com/geocube/channels/ChannelsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeActivity.java" afterPath="$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeGLRenderer.java" afterPath="$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeGLRenderer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterChannelResponse.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/JsonFilterChannelResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/LoginActivity.java" afterPath="$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/LoginActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/activities/mainUserActivities/MainUserActivity.java" afterPath="$PROJECT_DIR$/src/com/geocube/activities/mainUserActivities/MainUserActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/graphics/cube/PointsTags.java" afterPath="$PROJECT_DIR$/src/com/geocube/graphics/cube/PointsTags.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/graphics/cube/Touch.java" afterPath="$PROJECT_DIR$/src/com/geocube/graphics/cube/Touch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/ProjectConstants.java" afterPath="$PROJECT_DIR$/src/com/geocube/ProjectConstants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/channels_activity.xml" afterPath="$PROJECT_DIR$/res/layout/channels_activity.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main_user_activity.xml" afterPath="$PROJECT_DIR$/res/layout/main_user_activity.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GeoCubeProject.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365538463847" ignored="false" />
-    <file path="/fragment.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365538619658" ignored="false" />
+    <file path="/Dummy.txt" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366056719372" ignored="false" />
+    <file path="/fragment.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366052812975" ignored="false" />
     <file path="/MyCube.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365352985747" ignored="false" />
-    <file path="/MainActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361173693006" ignored="false" />
+    <file path="/MainActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366053362326" ignored="false" />
     <file path="/FilterRequest.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361173458142" ignored="false" />
-    <file path="/ProjectConstants.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361173281105" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1362555667739" ignored="false" />
+    <file path="/ProjectConstants.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365949777333" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366057503327" ignored="false" />
     <file path="/MainStartActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361182079906" ignored="false" />
     <file path="/Test.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361178860182" ignored="false" />
     <file path="C:/TestAndroidGEO/AndroidManifest.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361177038267" ignored="false" />
@@ -50,19 +71,19 @@
     <file path="C:/TestAndroidGEO/res/values/strings.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361177038267" ignored="false" />
     <file path="C:/TestAndroidGEO/src/ru/spb/osll/GDS/LoginActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361177511088" ignored="false" />
     <file path="C:/TestAndroidGEO/.idea/workspace.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361177656538" ignored="false" />
-    <file path="/LoginActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361183653985" ignored="false" />
+    <file path="/LoginActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366058389359" ignored="false" />
     <file path="/RegisterActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1362561946808" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/geocube/mainUserActivities.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361182728377" ignored="false" />
-    <file path="/MainUserActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365352842623" ignored="false" />
+    <file path="/MainUserActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366058359449" ignored="false" />
     <file path="/login_activity.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361183781304" ignored="false" />
     <file path="/ChannelItem.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1362552229675" ignored="false" />
     <file path="/MyListItemView.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1362552901514" ignored="false" />
     <file path="/my_list_item_view.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1362552452572" ignored="false" />
     <file path="/MyListAdapter.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1362552853489" ignored="false" />
     <file path="/MyListItem.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361271269910" ignored="false" />
-    <file path="/main_user_activity.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1364412897035" ignored="false" />
+    <file path="/main_user_activity.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365958586828" ignored="false" />
     <file path="/JsonLoadTagsResponse.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1362556724404" ignored="false" />
-    <file path="/ChannelsActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1364202406674" ignored="false" />
+    <file path="/ChannelsActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365954043785" ignored="false" />
     <file path="/channels_activity.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1364413019209" ignored="false" />
     <file path="/MarkItem.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1362553945524" ignored="false" />
     <file path="/my_list_item_view_marks.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1362559700653" ignored="false" />
@@ -75,7 +96,7 @@
     <file path="/ErrorList.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1362560977752" ignored="false" />
     <file path="/ErrorMessages.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1362561712771" ignored="false" />
     <file path="/register_activity.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1364412913352" ignored="false" />
-    <file path="/CubeActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1364364964629" ignored="false" />
+    <file path="/CubeActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365850224649" ignored="false" />
     <file path="/CubeGLRenderer.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365539171895" ignored="false" />
     <file path="/CubeGLSurfaceView.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1364287158763" ignored="false" />
     <file path="/CubeView.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1364291675273" ignored="false" />
@@ -83,7 +104,89 @@
     <file path="/my_button.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1364367923603" ignored="false" />
     <file path="/main_start_activity.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1364412828762" ignored="false" />
     <file path="C:/compgraphics/Lab05/src/Fraktal.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1364932748973" ignored="false" />
-    <file path="/PointsTags.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365364534765" ignored="false" />
+    <file path="/PointsTags.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365854441501" ignored="false" />
+    <file path="/background.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365850853509" ignored="false" />
+    <file path="/LabelMaker.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365852314500" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/plugins/mixare-barcode-plugin/project.properties" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366050327891" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/project.properties" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366050327891" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/plugins/mixare-imagemarker-plugin/project.properties" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366050327891" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/plugins/mixare-arena-splashscreen-plugin/project.properties" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366050327891" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/plugins/mixare-library/project.properties" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366050327891" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/plugins/mixare-arena-processor-plugin/project.properties" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366050327892" ignored="false" />
+    <file path="/FilterListItem.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365956091790" ignored="false" />
+    <file path="/my_list_item_view_filters.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365955274573" ignored="false" />
+    <file path="/FilterListItemView.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365952690651" ignored="false" />
+    <file path="/FilterListAdapter.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365957079354" ignored="false" />
+    <file path="/FilterItem.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365953129266" ignored="false" />
+    <file path="/FiltersActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365961780939" ignored="false" />
+    <file path="/filters_activity.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365953534195" ignored="false" />
+    <file path="/LiveModeActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365958693451" ignored="false" />
+    <file path="/CylinderGLRenderer.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365961679437" ignored="false" />
+    <file path="/MyCylinder.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366052649988" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/gen/org/mixare/R.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366050018689" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/gen/org/mixare/BuildConfig.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366050018689" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/gen/org/mixare/Manifest.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366050018689" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/plugins/mixare-library/gen/org/mixare/lib/service/IBootStrap.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366049745371" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/MixMap.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907625" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/AndroidManifest.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366053611048" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/.idea/workspace.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366053912064" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/.idea/misc.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366052122967" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/MixContext.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907625" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/MixView.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366053412449" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/plugin/PluginLoader.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/data/convert/MixareDataProcessor.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907623" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/data/convert/OsmDataProcessor.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907623" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/data/convert/TwitterDataProcessor.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907623" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/data/convert/WikiDataProcessor.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/gui/RadarPoints.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/mgr/HttpTools.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/mgr/datasource/DataSourceManager.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/mgr/datasource/DataSourceManagerFactory.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/mgr/downloader/DownloadManager.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/mgr/downloader/DownloadManagerFactory.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/mgr/downloader/DownloadResult.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/mgr/location/LocationFinder.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/mgr/location/LocationFinderFactory.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/mgr/location/LocationMgrImpl.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/mgr/location/LocationObserver.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/mgr/webcontent/WebContentManager.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/mgr/webcontent/WebContentManagerFactory.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/plugin/PluginConnection.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/Compatibility.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/plugin/PluginNotFoundException.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/DataView.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/plugin/PluginType.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/LocalMarker.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/plugin/connection/ActivityConnection.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/MainActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366053462400" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/plugin/connection/MarkerServiceConnection.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907625" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/MixListView.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907625" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/plugin/remoteobjects/RemoteMarker.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907625" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/MixState.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907625" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/NavigationMarker.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907625" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/PluginLoaderActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907625" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/POIMarker.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907625" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/SocialMarker.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907626" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/plugins/mixare-library/AndroidManifest.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907626" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/data/DataHandler.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907626" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/data/DataSource.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907626" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/data/DataSourceList.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907626" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/data/DataSourceStorage.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907626" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/data/convert/DataConvertor.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907626" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/src/org/mixare/data/convert/DataProcessor.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366051907626" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/.idea/compiler.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366052122967" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/plugins/mixare-barcode-plugin/src/org/mixare/plugin/barcode/service/BarcodeService.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366052173476" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/plugins/mixare-barcode-plugin/AndroidManifest.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366052366605" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/plugins/mixare-barcode-plugin/src/org/mixare/plugin/barcode/BarcodeActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366052366606" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/.idea/modules.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366053865572" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/plugins/mixare-imagemarker-plugin/src/org/mixare/plugin/imagemarker/service/ImageMarkerService.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366052753691" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/plugins/mixare-imagemarker-plugin/AndroidManifest.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366052753691" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/plugins/mixare-arena-splashscreen-plugin/AndroidManifest.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366052766848" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/plugins/mixare-arena-splashscreen-plugin/src/org/mixare/plugin/arenasplash/ArenaSplashActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366052766848" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/plugins/mixare-arena-processor-plugin/src/org/mixare/plugin/arenaprocessor/service/ArenaProcessorService.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366052778387" ignored="false" />
+    <file path="$PROJECT_DIR$/../../mixare-master/plugins/mixare-arena-processor-plugin/AndroidManifest.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366052778387" ignored="false" />
+    <file path="/MixView.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366056871548" ignored="false" />
+    <file path="/DataSource.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366056947800" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,23 +206,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/RegisterActivity.java" line="53" class="com.geocube.activities.loginRegisterActivities.RegisterActivity$1" package="com.geocube.activities.loginRegisterActivities">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -154,6 +240,23 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/RegisterActivity.java" line="53" class="com.geocube.activities.loginRegisterActivities.RegisterActivity$1" package="com.geocube.activities.loginRegisterActivities">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -163,49 +266,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="LoginActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/LoginActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="85" selection-start="1690" selection-end="1690" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1218#2232#0" expanded="true" />
+                <element signature="e#2223#2224#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MainUserActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/geocube/activities/mainUserActivities/MainUserActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="32" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CubeActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="54" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CubeGLRenderer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeGLRenderer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="57" selection-start="2663" selection-end="2663" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Touch.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cube/Touch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="33" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.48795182">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PointsTags.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cube/PointsTags.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="7" selection-start="3029" selection-end="3029" vertical-scroll-proportion="0.0">
+            <state line="34" column="71" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2090#2245#0" expanded="true" />
+                <element signature="e#2234#2235#0" expanded="true" />
+                <element signature="e#3521#3530#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="69" selection-start="2551" selection-end="2551" vertical-scroll-proportion="0.536036">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectConstants.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/geocube/ProjectConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="90" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonBaseResponse.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonBaseResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="0" selection-start="2032" selection-end="2032" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonLoginResponse.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonLoginResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="30" selection-start="1928" selection-end="1928" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -228,30 +345,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeTestActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeView.java" />
-        <option value="$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeGLSurfaceView.java" />
-        <option value="$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/some_main.xml" />
-        <option value="$PROJECT_DIR$/res/drawable/my_button.xml" />
-        <option value="$PROJECT_DIR$/res/layout/main_start_activity.xml" />
-        <option value="$PROJECT_DIR$/res/layout/login_activity.xml" />
-        <option value="$PROJECT_DIR$/res/layout/main_user_activity.xml" />
-        <option value="$PROJECT_DIR$/res/layout/register_activity.xml" />
-        <option value="$PROJECT_DIR$/res/layout/channels_activity.xml" />
-        <option value="$PROJECT_DIR$/src/com/geocube/graphics/cube/MyCube.java" />
+        <option value="$PROJECT_DIR$/src/com/geocube/activities/filters/FiltersActivity.java" />
         <option value="$PROJECT_DIR$/src/com/geocube/graphics/cube/PointsTags.java" />
+        <option value="$PROJECT_DIR$/src/com/geocube/graphics/cylinder/MyCylinder.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/data/DataSourceStorage.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/MixView.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/data/DataSourceList.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/mgr/location/LocationMgrImpl.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/DataView.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/data/DataSource.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/MixMap.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/MixListView.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/PluginLoaderActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/geocube/activities/mainUserActivities/MainUserActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeGLRenderer.java" />
-        <option value="$PROJECT_DIR$/src/com/geocube/graphics/cube/Touch.java" />
+        <option value="$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/geocube/ProjectConstants.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1358" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -300,7 +417,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -311,6 +427,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -371,233 +488,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geocube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geocube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="location" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geocube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lists" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maksList" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geocube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lists" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="channelsList" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geocube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geocube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="constants" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geocube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="channels" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geocube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mainUserActivities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geocube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mainActivity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geocube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loginRegisterActivities" />
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -628,9 +519,17 @@
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.geocube.graphics.cylinder" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\gitrepos\diploma\geocube\GeoCubeProject\src\com\geocube\lists\filtersList" />
+      <recent name="C:\gitrepos\diploma\geocube\GeoCubeProject\src\com\geocube\graphics\cube\cylinder" />
       <recent name="C:\gitrepos\diploma\geocube\GeoCubeProject\res\drawable" />
       <recent name="C:\gitrepos\diploma\geocube\GeoCubeProject\src\com\geocube\lists\maksList" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\gitrepos\diploma\geocube\GeoCubeProject\res\layout" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.GeoCubeProject">
@@ -861,7 +760,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="1358" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -869,21 +768,21 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14726028" sideWeight="0.4855923" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43526787" sideWeight="0.4855923" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14383562" sideWeight="0.5174242" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2260274" sideWeight="0.49225014" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3030822" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2109375" sideWeight="0.49225014" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23883928" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24919957" sideWeight="0.953125" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27651516" sideWeight="0.89726025" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10273973" sideWeight="0.47727272" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21504803" sideWeight="0.7723214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22767857" sideWeight="0.47727272" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4236111" sideWeight="0.9754464" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16862327" sideWeight="0.6238839" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -891,7 +790,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18910256" sideWeight="0.9754464" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.9296875" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.4969697" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3783482" sideWeight="0.4969697" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -956,105 +855,127 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/drawable/my_button.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cylinder/CylinderActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="64" selection-start="503" selection-end="503" vertical-scroll-proportion="0.3936842" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/channels_activity.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="39" selection-start="1456" selection-end="1456" vertical-scroll-proportion="0.39555556" />
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Android/sources/android-15/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5675" column="0" selection-start="212942" selection-end="212942" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/RegisterActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="34" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.0">
+        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/IRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/org/mixare/data/DataSourceList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="16" selection-start="4302" selection-end="4302" vertical-scroll-proportion="0.6389961" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonRegisterUserReguest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="42" selection-start="2547" selection-end="2547" vertical-scroll-proportion="0.8107607" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="49" selection-start="2057" selection-end="2057" vertical-scroll-proportion="0.7955912">
+        <state line="23" column="21" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonLoginResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/org/mixare/mgr/location/LocationMgrImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1984" selection-end="1984" vertical-scroll-proportion="0.35270542" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonBaseResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="2032" selection-end="2032" vertical-scroll-proportion="0.4428858" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/geocube/channels/ChannelsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="29" selection-start="1374" selection-end="1374" vertical-scroll-proportion="0.9328063">
+        <state line="27" column="21" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cube/PointsTags.java">
+    <entry file="file://$PROJECT_DIR$/src/org/mixare/DataView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="7" selection-start="3029" selection-end="3029" vertical-scroll-proportion="0.0">
+        <state line="339" column="57" selection-start="9257" selection-end="9257" vertical-scroll-proportion="0.68706536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mixare/data/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="261" column="64" selection-start="7015" selection-end="7015" vertical-scroll-proportion="-0.045897078">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cube/MyCube.java">
+    <entry file="file://$PROJECT_DIR$/src/org/mixare/data/DataSourceStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="9" selection-start="3036" selection-end="3036" vertical-scroll-proportion="0.48692152">
+        <state line="90" column="74" selection-start="2812" selection-end="2812" vertical-scroll-proportion="0.21974966">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mixare/MixMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="160" column="61" selection-start="5200" selection-end="5200" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mixare/MixListView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="56" selection-start="3946" selection-end="3946" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mixare/PluginLoaderActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="23" selection-start="1641" selection-end="1641" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonLoginResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="30" selection-start="1928" selection-end="1928" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonBaseResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="2032" selection-end="2032" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mixare/MixView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="13" selection-start="2338" selection-end="2338" vertical-scroll-proportion="0.33231708">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="85" selection-start="1690" selection-end="1690" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1218#2232#0" expanded="true" />
+            <element signature="e#2223#2224#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/geocube/activities/mainUserActivities/MainUserActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="32" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0">
+        <state line="34" column="71" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#2090#2245#0" expanded="true" />
+            <element signature="e#2234#2235#0" expanded="true" />
+            <element signature="e#3521#3530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/geocube/ProjectConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="90" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeActivity.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="54" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeGLRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="57" selection-start="2663" selection-end="2663" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cube/Touch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="33" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.48795182">
+        <state line="42" column="69" selection-start="2551" selection-end="2551" vertical-scroll-proportion="0.536036">
           <folding />
         </state>
       </provider>

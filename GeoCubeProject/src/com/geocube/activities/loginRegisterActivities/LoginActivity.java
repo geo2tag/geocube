@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 import com.geocube.ProjectConstants;
 import com.geocube.R;
 import com.geocube.activities.mainUserActivities.MainUserActivity;
@@ -14,13 +15,8 @@ import org.json.JSONObject;
 import ru.spb.osll.json.JsonLoginRequest;
 import ru.spb.osll.json.JsonLoginResponse;
 
-/**
- * Created with IntelliJ IDEA.
- * User: maru
- * Date: 18.02.13
- * Time: 13:32
- * To change this template use File | Settings | File Templates.
- */
+import java.util.UUID;
+
 public class LoginActivity extends Activity {
     private EditText loginText;
     private EditText passText;
@@ -48,10 +44,17 @@ public class LoginActivity extends Activity {
               JsonLoginRequest loginReques = new JsonLoginRequest(login, pass, ProjectConstants.SERVER_URL);
               JSONObject r = loginReques.doRequest();
               JsonLoginResponse responce = new JsonLoginResponse();
-              responce.parseJson(r);
-              String authToken = responce.getAuthString();
 
-              MainUserActivity.setAuthToken(authToken);
+              if (r != null) {
+                  responce.parseJson(r);
+                  String authToken = responce.getAuthString();
+
+                  MainUserActivity.setAuthToken(authToken);
+                  MainUserActivity.setServerAvaliable(true);
+              } else {
+                  MainUserActivity.setAuthToken(UUID.randomUUID().toString());
+                  MainUserActivity.setServerAvaliable(false);
+              }
 
               Intent in = new Intent(LoginActivity.this, MainUserActivity.class);
               startActivity(in);

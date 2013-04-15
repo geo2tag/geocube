@@ -8,34 +8,36 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 import com.geocube.ProjectConstants;
 import com.geocube.R;
+import com.geocube.activities.filters.FiltersActivity;
 import com.geocube.channels.ChannelsActivity;
-import com.geocube.graphics.cube.CubeActivity;
 import com.geocube.location.MyLocationManager;
 import org.json.JSONObject;
-import ru.spb.osll.json.JsonFilterBoxRequest;
+import org.mixare.MixView;
 import ru.spb.osll.json.JsonLoadTagsRequest;
 import ru.spb.osll.json.JsonLoadTagsResponse;
 import ru.spb.osll.objects.Channel;
 
 import java.util.ArrayList;
-import java.util.Date;
 
 public class MainUserActivity extends Activity {
     private static String authToken;
     private Button scanChannnels;
     private Button scanFilters;
+    private Button liveMode;
+
     Location location;
     double latitude;
     double longitude;
     double radius = 500;
 
-    double deltaX = 30;
-    double deltaY = 30;
+    private static boolean isServerAvaliable = false;
 
-    String timeFrom = "01 01 1990 22:10:00.111";
-    String timeTo = new Date().toString();
+    public static void setServerAvaliable(boolean serverAvaliable) {
+        isServerAvaliable = serverAvaliable;
+    }
 
     public static void setAuthToken(String authToken) {
         MainUserActivity.authToken = authToken;
@@ -53,6 +55,12 @@ public class MainUserActivity extends Activity {
         setContentView(R.layout.main_user_activity);
 
         initViews();
+
+        if (isServerAvaliable) {
+            Toast.makeText(this, "Server is avaliable", 3000);
+        } else {
+            Toast.makeText(this, "Server is not avaliable", 3000);
+        }
     }
 
     public void initViews() {
@@ -68,19 +76,18 @@ public class MainUserActivity extends Activity {
         scanFilters.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                double x = latitude - deltaX;
-                double x1 = latitude + deltaX;
-                double y = longitude - deltaY;
-                double y1 = longitude + deltaY;
-                double z = location.getAltitude();
-                double z1 = z + radius;
+                FiltersActivity.setAuthToken(authToken);
 
-                JsonFilterBoxRequest req = new JsonFilterBoxRequest(authToken, x, x1, y, y1, z, z1, timeFrom, timeTo, ProjectConstants.SERVER_URL);
-                JSONObject ob = req.doRequest();
+                Intent in = new Intent(MainUserActivity.this, FiltersActivity.class);
+                startActivity(in);
+            }
+        });
 
-                CubeActivity.setCoordinates(x, x1, y, y1, z, z1);
-
-                Intent in = new Intent(MainUserActivity.this, CubeActivity.class);
+        liveMode = (Button) findViewById(R.id.liveModeButton);
+        liveMode.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent in = new Intent(MainUserActivity.this, MixView.class);
                 startActivity(in);
             }
         });
@@ -91,11 +98,16 @@ public class MainUserActivity extends Activity {
 
         JsonLoadTagsRequest request = new JsonLoadTagsRequest(authToken, latitude, longitude, radius, ProjectConstants.SERVER_URL);
         JSONObject ob = request.doRequest();
-        JsonLoadTagsResponse resp = new JsonLoadTagsResponse();
-        resp.parseJson(ob);
+        if (ob != null) {
+            JsonLoadTagsResponse resp = new JsonLoadTagsResponse();
+            resp.parseJson(ob);
 
-        ArrayList<Channel> c = (ArrayList<Channel>) resp.getChannels();
-        ChannelsActivity.setChannels(c);
+            ArrayList<Channel> c = (ArrayList<Channel>) resp.getChannels();
+            ChannelsActivity.setChannels(c);
+        } else {
+            ArrayList<Channel> c = new ArrayList<Channel>();
+            ChannelsActivity.setChannels(c);
+        }
 
         Intent in = new Intent(MainUserActivity.this, ChannelsActivity.class);
         startActivity(in);

@@ -2,6 +2,7 @@ package com.geocube.graphics.cube;
 
 import android.opengl.GLSurfaceView;
 import android.util.Log;
+import com.geocube.graphics.Touch;
 
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
