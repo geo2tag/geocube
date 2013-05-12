@@ -472,17 +472,6 @@ public class MixView extends Activity implements SensorEventListener, OnTouchLis
 	 */
 	private void firstAccess(SharedPreferences settings) {
 		SharedPreferences.Editor editor = settings.edit();
-		AlertDialog.Builder builder1 = new AlertDialog.Builder(this);
-		builder1.setMessage(getString(R.string.license));
-		builder1.setNegativeButton(getString(R.string.close_button),
-				new DialogInterface.OnClickListener() {
-					public void onClick(DialogInterface dialog, int id) {
-						dialog.dismiss();
-					}
-				});
-		AlertDialog alert1 = builder1.create();
-		alert1.setTitle(getString(R.string.license_title));
-		alert1.show();
 		editor.putBoolean("firstAccess", true);
 
 		// value for maximum POI for each selected OSM URL to be active by

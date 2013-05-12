@@ -1,7 +1,7 @@
 package com.geocube;
 
 public interface ProjectConstants {
-    public static String SERVER_URL = "http://debug.geo2tag.org/service";
+    public static String SERVER_URL = "http://demo64.geo2tag.org/service";
 
     public static String TEST_USER_NAME = "Mark";
     public static String TEST_USER_PASS = "test";

@@ -153,4 +153,10 @@ public interface IRequest {
 
         String EMAIL = "email";
     }
+    public interface ISetDb {
+	String REQUEST = "/setdb";
+	String AUTH_TOKEN = "auth_token";
+
+        String DB_NAME = "db_name";
+    }
 }

@@ -56,6 +56,9 @@ public class Errno {
     public static int TMP_USER_ALREADY_EXIST_ERROR      = 17;
     public static int NETWORK_ERROR                     = 18;
     public static int EMAIL_ALREADY_EXIST_ERROR         = 19;
+    public static int WEAK_PASSWORD_ERROR	        = 20;
+    public static int NOT_SUPPORTED         		= 21;
+    public static int DB_DOES_NOT_EXIST_ERROR         	= 22;
 
     private static Map<Integer, String> emap = new HashMap<Integer, String>();
     static {
@@ -79,6 +82,9 @@ public class Errno {
         emap.put(TMP_USER_ALREADY_EXIST_ERROR,      "TMP_USER_ALREADY_EXIST_ERROR");    // 17
         emap.put(NETWORK_ERROR,                     "NETWORK_ERROR");                   // 18
         emap.put(EMAIL_ALREADY_EXIST_ERROR,         "EMAIL_ALREADY_EXIST_ERROR");       // 19
+        emap.put(WEAK_PASSWORD_ERROR,		    "WEAK_PASSWORD_ERROR");       	// 20
+        emap.put(NOT_SUPPORTED,			    "NOT_SUPPORTED");       		// 21
+        emap.put(DB_DOES_NOT_EXIST_ERROR,           "DB_DOES_NOT_EXIST_ERROR");       	// 22
     }
 	
 	public static String getErrorByCode(int error) {

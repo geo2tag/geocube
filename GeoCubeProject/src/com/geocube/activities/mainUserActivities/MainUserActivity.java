@@ -19,6 +19,7 @@ import org.mixare.MixView;
 import ru.spb.osll.json.JsonLoadTagsRequest;
 import ru.spb.osll.json.JsonLoadTagsResponse;
 import ru.spb.osll.objects.Channel;
+import ru.spb.osll.objects.Mark;
 
 import java.util.ArrayList;
 

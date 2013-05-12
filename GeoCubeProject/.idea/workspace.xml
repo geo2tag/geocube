@@ -28,36 +28,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e516c59-067a-46ae-a52e-3fed42ed8076" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/graphics/cylinder/CylinderActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/graphics/cylinder/CylinderGLRenderer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/lists/filtersList/FilterItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/lists/filtersList/FilterListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/lists/filtersList/FilterListItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/lists/filtersList/FilterListItemView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/activities/filters/FiltersActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/activities/liveMode/LiveModeActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/graphics/cylinder/MyCylinder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/geocube/graphics/cylinder/PointsTags.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/background.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/filters_activity.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/my_list_item_view_filters.xml" />
-      <change type="MOVED" beforePath="C:\gitrepos\diploma\geocube\GeoCubeProject\src\com\geocube\graphics\cube\Touch.java" afterPath="$PROJECT_DIR$/src/com/geocube/graphics/Touch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/channels/ChannelsActivity.java" afterPath="$PROJECT_DIR$/src/com/geocube/channels/ChannelsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeActivity.java" afterPath="$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeGLRenderer.java" afterPath="$PROJECT_DIR$/src/com/geocube/graphics/cube/CubeGLRenderer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/LoginActivity.java" afterPath="$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/LoginActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/Errno.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/Errno.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spb/osll/json/IRequest.java" afterPath="$PROJECT_DIR$/src/ru/spb/osll/json/IRequest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/activities/mainUserActivities/MainUserActivity.java" afterPath="$PROJECT_DIR$/src/com/geocube/activities/mainUserActivities/MainUserActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/graphics/cube/PointsTags.java" afterPath="$PROJECT_DIR$/src/com/geocube/graphics/cube/PointsTags.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/mixare/MixView.java" afterPath="$PROJECT_DIR$/src/org/mixare/MixView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/ProjectConstants.java" afterPath="$PROJECT_DIR$/src/com/geocube/ProjectConstants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/channels_activity.xml" afterPath="$PROJECT_DIR$/res/layout/channels_activity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main_user_activity.xml" afterPath="$PROJECT_DIR$/res/layout/main_user_activity.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GeoCubeProject.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366056719372" ignored="false" />
+    <file path="/Dummy.txt" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1368351493286" ignored="false" />
     <file path="/fragment.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366052812975" ignored="false" />
     <file path="/MyCube.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365352985747" ignored="false" />
     <file path="/MainActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366053362326" ignored="false" />
@@ -74,7 +54,7 @@
     <file path="/LoginActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366058389359" ignored="false" />
     <file path="/RegisterActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1362561946808" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/geocube/mainUserActivities.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361182728377" ignored="false" />
-    <file path="/MainUserActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366058359449" ignored="false" />
+    <file path="/MainUserActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366059270058" ignored="false" />
     <file path="/login_activity.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361183781304" ignored="false" />
     <file path="/ChannelItem.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1362552229675" ignored="false" />
     <file path="/MyListItemView.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1362552901514" ignored="false" />
@@ -206,6 +186,50 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/RegisterActivity.java" line="53" class="com.geocube.activities.loginRegisterActivities.RegisterActivity$1" package="com.geocube.activities.loginRegisterActivities">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/LoginActivity.java" line="43" class="com.geocube.activities.loginRegisterActivities.LoginActivity$1" package="com.geocube.activities.loginRegisterActivities">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/LoginActivity.java" line="44" class="com.geocube.activities.loginRegisterActivities.LoginActivity$1" package="com.geocube.activities.loginRegisterActivities">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -241,22 +265,6 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/RegisterActivity.java" line="53" class="com.geocube.activities.loginRegisterActivities.RegisterActivity$1" package="com.geocube.activities.loginRegisterActivities">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -266,36 +274,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/LoginActivity.java">
+      <file leaf-file-name="MixView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/mixare/MixView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="85" selection-start="1690" selection-end="1690" vertical-scroll-proportion="0.0">
+            <state line="499" column="22" selection-start="15900" selection-end="15900" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#1218#2232#0" expanded="true" />
-                <element signature="e#2223#2224#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainUserActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/geocube/activities/mainUserActivities/MainUserActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="71" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#2090#2245#0" expanded="true" />
-                <element signature="e#2234#2235#0" expanded="true" />
-                <element signature="e#3521#3530#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="69" selection-start="2551" selection-end="2551" vertical-scroll-proportion="0.536036">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -303,25 +288,16 @@
       <file leaf-file-name="ProjectConstants.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/geocube/ProjectConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="90" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+            <state line="3" column="39" selection-start="97" selection-end="130" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonBaseResponse.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonBaseResponse.java">
+      <file leaf-file-name="LoginActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="2032" selection-end="2032" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonLoginResponse.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonLoginResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="30" selection-start="1928" selection-end="1928" vertical-scroll-proportion="0.0">
+            <state line="49" column="25" selection-start="1757" selection-end="1757" vertical-scroll-proportion="0.24184783">
               <folding />
             </state>
           </provider>
@@ -349,7 +325,6 @@
         <option value="$PROJECT_DIR$/src/com/geocube/graphics/cube/PointsTags.java" />
         <option value="$PROJECT_DIR$/src/com/geocube/graphics/cylinder/MyCylinder.java" />
         <option value="$PROJECT_DIR$/src/org/mixare/data/DataSourceStorage.java" />
-        <option value="$PROJECT_DIR$/src/org/mixare/MixView.java" />
         <option value="$PROJECT_DIR$/src/org/mixare/data/DataSourceList.java" />
         <option value="$PROJECT_DIR$/src/org/mixare/mgr/location/LocationMgrImpl.java" />
         <option value="$PROJECT_DIR$/src/org/mixare/DataView.java" />
@@ -358,17 +333,18 @@
         <option value="$PROJECT_DIR$/src/org/mixare/MixListView.java" />
         <option value="$PROJECT_DIR$/src/org/mixare/PluginLoaderActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/geocube/activities/mainUserActivities/MainUserActivity.java" />
         <option value="$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/geocube/activities/mainUserActivities/MainUserActivity.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/MixView.java" />
         <option value="$PROJECT_DIR$/src/com/geocube/ProjectConstants.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -474,7 +450,95 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="mixare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeoCubeProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeoCubeProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mixare" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MixView.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeoCubeProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeoCubeProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="geocube" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeoCubeProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeoCubeProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geocube" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeoCubeProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GeoCubeProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geocube" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="loginRegisterActivities" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -760,7 +824,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -768,21 +832,21 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43526787" sideWeight="0.4855923" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32534248" sideWeight="0.4855923" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14383562" sideWeight="0.5174242" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2109375" sideWeight="0.49225014" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20719178" sideWeight="0.49225014" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23883928" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24919957" sideWeight="0.953125" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21504803" sideWeight="0.7723214" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22767857" sideWeight="0.47727272" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34924242" sideWeight="0.6746575" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14041096" sideWeight="0.47727272" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4236111" sideWeight="0.9754464" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16862327" sideWeight="0.6238839" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -855,25 +919,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/geocube/graphics/cylinder/CylinderActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/mixare/data/DataSourceList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="21" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="23" column="21" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/mixare/mgr/location/LocationMgrImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="21" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="27" column="21" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/mixare/DataView.java">
@@ -885,20 +938,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/mixare/data/DataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="261" column="64" selection-start="7015" selection-end="7015" vertical-scroll-proportion="-0.045897078">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="261" column="64" selection-start="7015" selection-end="7015" vertical-scroll-proportion="-0.045897078" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/mixare/data/DataSourceStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="74" selection-start="2812" selection-end="2812" vertical-scroll-proportion="0.21974966">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="90" column="74" selection-start="2812" selection-end="2812" vertical-scroll-proportion="0.21974966" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/mixare/MixMap.java">
@@ -922,60 +967,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonLoginResponse.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="30" selection-start="1928" selection-end="1928" vertical-scroll-proportion="0.0">
+        <state line="47" column="39" selection-start="2812" selection-end="2812" vertical-scroll-proportion="1.0025094">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonBaseResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="2032" selection-end="2032" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="50" column="0" selection-start="2032" selection-end="2032" vertical-scroll-proportion="0.27728984" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonLoginResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="30" selection-start="1928" selection-end="1928" vertical-scroll-proportion="0.1706399" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/objects/Mark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="13" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.083538085" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/geocube/activities/mainUserActivities/MainUserActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="64" selection-start="3331" selection-end="3331" vertical-scroll-proportion="0.5823096" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/mixare/MixView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="13" selection-start="2338" selection-end="2338" vertical-scroll-proportion="0.33231708">
+        <state line="499" column="22" selection-start="15900" selection-end="15900" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="85" selection-start="1690" selection-end="1690" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1218#2232#0" expanded="true" />
-            <element signature="e#2223#2224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/geocube/activities/mainUserActivities/MainUserActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="71" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2090#2245#0" expanded="true" />
-            <element signature="e#2234#2235#0" expanded="true" />
-            <element signature="e#3521#3530#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/geocube/ProjectConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="90" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+        <state line="3" column="39" selection-start="97" selection-end="130" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="69" selection-start="2551" selection-end="2551" vertical-scroll-proportion="0.536036">
+        <state line="49" column="25" selection-start="1757" selection-end="1757" vertical-scroll-proportion="0.24184783">
           <folding />
         </state>
       </provider>
