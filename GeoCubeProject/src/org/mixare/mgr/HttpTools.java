@@ -157,7 +157,7 @@ public final class HttpTools {
 			try {
 				is.close();
 			} catch (Exception ignore) {
-				Log.w(MixContext.TAG, "Error on url "+urlStr, ignore);
+                ignore.printStackTrace();
 			}
 			try {
 				if (conn instanceof HttpURLConnection)

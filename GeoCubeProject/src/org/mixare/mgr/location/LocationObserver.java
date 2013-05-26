@@ -54,19 +54,10 @@ class LocationObserver implements LocationListener {
 
 
 	public void onLocationChanged(Location location) {
-		Log.d(MixContext.TAG, "Normal Location Changed: " + location.getProvider()
-						+ " lat: " + location.getLatitude() + " lon: "
-						+ location.getLongitude() + " alt: "
-						+ location.getAltitude() + " acc: "
-						+ location.getAccuracy());
+
 		try {
 			addWalkingPathPosition(location);
 			deleteAllDownloadActivity();
-			Log.v(MixContext.TAG, "Location Changed: " + location.getProvider()
-							+ " lat: " + location.getLatitude() + " lon: "
-							+ location.getLongitude() + " alt: "
-							+ location.getAltitude() + " acc: "
-							+ location.getAccuracy());
 			myController.setPosition(location);
 		} catch (Exception ex) {
 			ex.printStackTrace();

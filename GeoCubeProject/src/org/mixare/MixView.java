@@ -27,10 +27,8 @@ package org.mixare;
  */
 
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.app.SearchManager;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -38,7 +36,6 @@ import android.hardware.*;
 import android.os.Bundle;
 import android.os.PowerManager;
 import android.os.PowerManager.WakeLock;
-import android.provider.Settings;
 import android.util.FloatMath;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -53,6 +50,7 @@ import org.mixare.data.DataSourceList;
 import org.mixare.lib.gui.PaintScreen;
 import org.mixare.lib.marker.Marker;
 import org.mixare.lib.render.Matrix;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -161,7 +159,6 @@ public class MixView extends Activity implements SensorEventListener, OnTouchLis
 	@Override
 	protected void onResume() {
 		super.onResume();
-
 		try {
 			this.getMixViewData().getmWakeLock().acquire();
 
@@ -175,40 +172,37 @@ public class MixView extends Activity implements SensorEventListener, OnTouchLis
 			getMixViewData().getMixContext().getDataSourceManager().refreshDataSources();
 
 			float angleX, angleY;
-
 			int marker_orientation = -90;
-
 			int rotation = Compatibility.getRotation(this);
-
 			// display text from left to right and keep it horizontal
 			angleX = (float) Math.toRadians(marker_orientation);
 			getMixViewData().getM1().set(1f, 0f, 0f, 0f,
-					(float) FloatMath.cos(angleX),
-					(float) -FloatMath.sin(angleX), 0f,
-					(float) FloatMath.sin(angleX),
-					(float) FloatMath.cos(angleX));
+					FloatMath.cos(angleX),
+					-FloatMath.sin(angleX), 0f,
+					FloatMath.sin(angleX),
+					FloatMath.cos(angleX));
 			angleX = (float) Math.toRadians(marker_orientation);
 			angleY = (float) Math.toRadians(marker_orientation);
 			if (rotation == 1) {
 				getMixViewData().getM2().set(1f, 0f, 0f, 0f,
-						(float) FloatMath.cos(angleX),
-						(float) -FloatMath.sin(angleX), 0f,
-						(float) FloatMath.sin(angleX),
-						(float) FloatMath.cos(angleX));
-				getMixViewData().getM3().set((float) FloatMath.cos(angleY), 0f,
-						(float) FloatMath.sin(angleY), 0f, 1f, 0f,
-						(float) -FloatMath.sin(angleY), 0f,
-						(float) FloatMath.cos(angleY));
+						FloatMath.cos(angleX),
+						-FloatMath.sin(angleX), 0f,
+						FloatMath.sin(angleX),
+						FloatMath.cos(angleX));
+				getMixViewData().getM3().set(FloatMath.cos(angleY), 0f,
+						FloatMath.sin(angleY), 0f, 1f, 0f,
+						-FloatMath.sin(angleY), 0f,
+						FloatMath.cos(angleY));
 			} else {
-				getMixViewData().getM2().set((float) FloatMath.cos(angleX), 0f,
-						(float) FloatMath.sin(angleX), 0f, 1f, 0f,
-						(float) -FloatMath.sin(angleX), 0f,
-						(float) FloatMath.cos(angleX));
+				getMixViewData().getM2().set(FloatMath.cos(angleX), 0f,
+						FloatMath.sin(angleX), 0f, 1f, 0f,
+						-FloatMath.sin(angleX), 0f,
+						FloatMath.cos(angleX));
 				getMixViewData().getM3().set(1f, 0f, 0f, 0f,
-						(float) FloatMath.cos(angleY),
-						(float) -FloatMath.sin(angleY), 0f,
-						(float) FloatMath.sin(angleY),
-						(float) FloatMath.cos(angleY));
+						FloatMath.cos(angleY),
+						-FloatMath.sin(angleY), 0f,
+						FloatMath.sin(angleY),
+						FloatMath.cos(angleY));
 
 			}
 
@@ -241,12 +235,12 @@ public class MixView extends Activity implements SensorEventListener, OnTouchLis
 			try {
 				GeomagneticField gmf = getMixViewData().getMixContext().getLocationFinder().getGeomagneticField(); 
 				angleY = (float) Math.toRadians(-gmf.getDeclination());
-				getMixViewData().getM4().set((float) FloatMath.cos(angleY), 0f,
-						(float) FloatMath.sin(angleY), 0f, 1f, 0f,
-						(float) -FloatMath.sin(angleY), 0f,
-						(float) FloatMath.cos(angleY));
+				getMixViewData().getM4().set(FloatMath.cos(angleY), 0f,
+						FloatMath.sin(angleY), 0f, 1f, 0f,
+						-FloatMath.sin(angleY), 0f,
+						FloatMath.cos(angleY));
 			} catch (Exception ex) {
-				Log.d("mixare", "GPS Initialize Error", ex);
+				ex.printStackTrace();
 			}
 
 			getMixViewData().getMixContext().getDownloadManager().switchOn();
@@ -270,7 +264,6 @@ public class MixView extends Activity implements SensorEventListener, OnTouchLis
 			}
 		}
 
-		Log.d("-------------------------------------------", "resume");
 		if (getDataView().isFrozen() && getMixViewData().getSearchNotificationTxt() == null) {
 			getMixViewData().setSearchNotificationTxt(new TextView(this));
 			getMixViewData().getSearchNotificationTxt().setWidth(
@@ -315,7 +308,6 @@ public class MixView extends Activity implements SensorEventListener, OnTouchLis
 							//to release data.
 		setDataView(new DataView(mixViewData.getMixContext()));
 		setdWindow(new PaintScreen());
-		//setZoomLevel(); //@TODO Caller has to set the zoom. This function repaints only.
 	}
 	
 	/**
@@ -343,49 +335,9 @@ public class MixView extends Activity implements SensorEventListener, OnTouchLis
 		dataView.refresh();
 	}
 
-	public void setErrorDialog(){
-		AlertDialog.Builder builder = new AlertDialog.Builder(this);
-		builder.setMessage(getString(R.string.connection_error_dialog));
-		builder.setCancelable(false);
-
-		/*Retry*/
-		builder.setPositiveButton(R.string.connection_error_dialog_button1, new DialogInterface.OnClickListener() {
-			public void onClick(DialogInterface dialog, int id) {
-				fError=false;
-				//TODO improve
-				try {
-					maintainCamera();
-					maintainAugmentR();
-					repaint();
-					setZoomLevel();
-				}
-				catch(Exception ex){
-					//Don't call doError, it will be a recursive call.
-					//doError(ex);
-				}
-			}
-		});
-		/*Open settings*/
-		builder.setNeutralButton(R.string.connection_error_dialog_button2, new DialogInterface.OnClickListener() {
-			public void onClick(DialogInterface dialog, int id) {
-				Intent intent1 = new Intent(Settings.ACTION_WIRELESS_SETTINGS); 
-				startActivityForResult(intent1, 42);
-			}
-		});
-		/*Close application*/
-		builder.setNegativeButton(R.string.connection_error_dialog_button3, new DialogInterface.OnClickListener() {
-			public void onClick(DialogInterface dialog, int id) {
-				System.exit(0); //wouldn't be better to use finish (to stop the app normally?)
-			}
-		});
-		AlertDialog alert = builder.create();
-		alert.show();
-	}
-
-	
 	public float calcZoomLevel(){
 
-		int myZoomLevel = 100;
+		int myZoomLevel = 500;
 		float myout = 5;
 
 		if (myZoomLevel <= 26) {
@@ -549,14 +501,8 @@ public class MixView extends Activity implements SensorEventListener, OnTouchLis
 	public void doError(Exception ex1) {
 		if (!fError) {
 			fError = true;
-
-			setErrorDialog();
-
+//			setErrorDialog();
 			ex1.printStackTrace();
-			try {
-			} catch (Exception ex2) {
-				ex2.printStackTrace();
-			}
 		}
 
 		try {

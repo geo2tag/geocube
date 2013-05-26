@@ -39,10 +39,6 @@ import android.widget.Toast;
  * Cares about location management and about the data (source, inputstream)
  */
 public class MixContext extends ContextWrapper implements MixContextInterface {
-
-	// TAG for logging
-	public static final String TAG = "Mixare";
-
 	private MixView mixView;
 
 	private Matrix rotationM = new Matrix();

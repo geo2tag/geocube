@@ -56,8 +56,8 @@ public class DataConvertor {
 	}
 
 	public List<Marker> load(String url, String rawResult, DataSource ds){
-//        DataProcessor dataProcessor = new WikiDataProcessor();
-          DataProcessor dataProcessor = new Geo2TagDataProcessor();
+        DataProcessor dataProcessor = new WikiDataProcessor();
+//          DataProcessor dataProcessor = new Geo2TagDataProcessor();
 
 		try {
 			return dataProcessor.load(rawResult, ds.getTaskId(), ds.getColor());
@@ -68,7 +68,7 @@ public class DataConvertor {
 	}
 	
 	private void addDefaultDataProcessors(){
-//        dataProcessors.add(new WikiDataProcessor());
+        dataProcessors.add(new WikiDataProcessor());
         dataProcessors.add(new Geo2TagDataProcessor());
 	}
 	

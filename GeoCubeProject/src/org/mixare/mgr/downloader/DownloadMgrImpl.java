@@ -103,7 +103,6 @@ class DownloadMgrImpl implements Runnable, DownloadManager {
 			}
 		} catch (Exception ex) {
 			result.setError(ex, request);
-			Log.w(MixContext.TAG, "ERROR ON DOWNLOAD REQUEST", ex);
 		}
 		return result;
 	}

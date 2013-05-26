@@ -43,10 +43,17 @@
                 android:singleLine="true"/>
     </GridLayout>
     <Button
-            android:layout_width="113dp"
+            android:layout_width="fill_parent"
             android:layout_height="50dp"
             android:text="Login"
-            android:id="@+id/loginButton" android:layout_gravity="center"
-            android:layout_margin="20dp" android:padding="10dp"
-            android:background="@drawable/my_button"/>
+            android:id="@+id/loginButton"
+            android:padding="10dp"
+            android:background="@drawable/my_button" android:layout_marginLeft="61dp" android:layout_marginRight="64dp"
+            android:layout_marginTop="20dp" android:layout_marginBottom="13dp"/>
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remember me"
+            android:id="@+id/rememberMeCheck" android:layout_gravity="center" android:enabled="true"
+            android:textStyle="italic"/>
 </LinearLayout>

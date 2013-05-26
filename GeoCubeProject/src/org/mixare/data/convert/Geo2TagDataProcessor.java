@@ -64,6 +64,7 @@ public class Geo2TagDataProcessor extends DataHandler implements DataProcessor {
         List<Marker> markers = new ArrayList<Marker>();
         ArrayList<Channel> channels = new ArrayList<Channel>();
 
+        radius = 20;
         JsonLoadTagsRequest request = new JsonLoadTagsRequest(authToken, latitude, longitude, radius, ProjectConstants.SERVER_URL);
         JSONObject ob = request.doRequest();
         if (ob != null) {
