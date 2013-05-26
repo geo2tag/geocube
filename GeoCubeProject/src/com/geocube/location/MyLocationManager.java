@@ -9,14 +9,6 @@ import android.view.Display;
 
 import java.util.List;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Мару
- * Date: 14.12.12
- * Time: 11:59
- * To change this template use File | Settings | File Templates.
- */
-
 public class MyLocationManager {
     public static Location getLocation(Context ctx) {
         LocationManager lm = (LocationManager) ctx.getSystemService(Context.LOCATION_SERVICE);

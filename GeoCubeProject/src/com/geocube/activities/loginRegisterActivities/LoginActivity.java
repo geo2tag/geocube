@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -40,6 +41,9 @@ public class LoginActivity extends Activity {
           public void onClick(View v) {
               String login = loginText.getText().toString();
               String pass = passText.getText().toString();
+
+              StrictMode.ThreadPolicy tp = StrictMode.ThreadPolicy.LAX;
+              StrictMode.setThreadPolicy(tp);
 
               JsonLoginRequest loginReques = new JsonLoginRequest(login, pass, ProjectConstants.SERVER_URL);
               JSONObject r = loginReques.doRequest();

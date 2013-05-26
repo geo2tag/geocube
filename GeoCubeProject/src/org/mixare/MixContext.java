@@ -63,7 +63,6 @@ public class MixContext extends ContextWrapper implements MixContextInterface {
 		super(appCtx);
 		mixView = appCtx;
 
-		// TODO: RE-ORDER THIS SEQUENCE... IS NECESSARY?
 		getDataSourceManager().refreshDataSources();
 
 		if (!getDataSourceManager().isAtLeastOneDatasourceSelected()) {
@@ -74,7 +73,7 @@ public class MixContext extends ContextWrapper implements MixContextInterface {
 	}
 
 	public String getStartUrl() {
-		Intent intent = ((Activity) getActualMixView()).getIntent();
+		Intent intent = getActualMixView().getIntent();
 		if (intent.getAction() != null
 				&& intent.getAction().equals(Intent.ACTION_VIEW)) {
 			return intent.getData().toString();
@@ -93,7 +92,6 @@ public class MixContext extends ContextWrapper implements MixContextInterface {
 	 * Shows a webpage with the given url when clicked on a marker.
 	 */
 	public void loadMixViewWebPage(String url) throws Exception {
-		// TODO: CHECK INTERFACE METHOD
 		getWebContentManager().loadWebPage(url, getActualMixView());
 	}
 
@@ -169,8 +167,6 @@ public class MixContext extends ContextWrapper implements MixContextInterface {
 
 	/**
 	 * Toast POPUP notification
-	 * 
-	 * @param connectionGpsDialogText
 	 */
 	public void doPopUp(int RidOfString) {
         doPopUp(this.getString(RidOfString));

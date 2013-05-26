@@ -18,36 +18,22 @@
  */
 package org.mixare;
 
-import static android.view.KeyEvent.KEYCODE_CAMERA;
-import static android.view.KeyEvent.KEYCODE_DPAD_CENTER;
-import static android.view.KeyEvent.KEYCODE_DPAD_DOWN;
-import static android.view.KeyEvent.KEYCODE_DPAD_LEFT;
-import static android.view.KeyEvent.KEYCODE_DPAD_RIGHT;
-import static android.view.KeyEvent.KEYCODE_DPAD_UP;
-
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
-
+import android.graphics.Color;
+import android.location.Location;
+import android.widget.Toast;
 import com.geocube.R;
 import org.mixare.data.DataHandler;
 import org.mixare.data.DataSource;
-import org.mixare.gui.RadarPoints;
-import org.mixare.lib.MixUtils;
 import org.mixare.lib.gui.PaintScreen;
-import org.mixare.lib.gui.ScreenLine;
 import org.mixare.lib.marker.Marker;
 import org.mixare.lib.render.Camera;
 import org.mixare.mgr.downloader.DownloadManager;
 import org.mixare.mgr.downloader.DownloadRequest;
 import org.mixare.mgr.downloader.DownloadResult;
 
-import android.graphics.Color;
-import android.location.Location;
-import android.util.Log;
-import android.widget.Toast;
+import java.util.*;
+
+import static android.view.KeyEvent.*;
 
 /**
  * This class is able to update the markers and the radar. It also handles some
@@ -91,9 +77,6 @@ public class DataView {
 
 	private ArrayList<UIEvent> uiEvents = new ArrayList<UIEvent>();
 
-	private RadarPoints radarPoints = new RadarPoints();
-	private ScreenLine lrl = new ScreenLine();
-	private ScreenLine rrl = new ScreenLine();
 	private float rx = 10, ry = 20;
 	private float addX = 0, addY = 0;
 	
@@ -159,12 +142,6 @@ public class DataView {
 			cam = new Camera(width, height, true);
 			cam.setViewAngle(Camera.DEFAULT_VIEW_ANGLE);
 
-			lrl.set(0, -RadarPoints.RADIUS);
-			lrl.rotate(Camera.DEFAULT_VIEW_ANGLE / 2);
-			lrl.add(rx + RadarPoints.RADIUS, ry + RadarPoints.RADIUS);
-			rrl.set(0, -RadarPoints.RADIUS);
-			rrl.rotate(-Camera.DEFAULT_VIEW_ANGLE / 2);
-			rrl.add(rx + RadarPoints.RADIUS, ry + RadarPoints.RADIUS);
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
@@ -176,6 +153,7 @@ public class DataView {
 		DownloadRequest request = new DownloadRequest(new DataSource(
 				"LAUNCHER", url, DataSource.TYPE.MIXARE,
 				DataSource.DISPLAY.CIRCLE_MARKER, true));
+
 		mixContext.getDataSourceManager().setAllDataSourcesforLauncher(
 				request.getSource());
 		mixContext.getDownloadManager().submitJob(request);
@@ -183,14 +161,7 @@ public class DataView {
 		}
 
 
-//	public void requestData(DataSource datasource, double lat, double lon, double alt, float radius, String locale) {
-//		DownloadRequest request = new DownloadRequest();
-//		request.params = datasource.createRequestParams(lat, lon, alt, radius, locale);
-//		request.source = datasource;
-//		
-//		mixContext.getDownloadManager().submitJob(request);
-//		state.nextLStatus = MixState.PROCESSING;
-//	}
+
 
 	public void draw(PaintScreen dw) {
 		mixContext.getRM(cam.transform);
@@ -237,15 +208,15 @@ public class DataView {
 		dataHandler.updateActivationStatus(mixContext);
 		for (int i = dataHandler.getMarkerCount() - 1; i >= 0; i--) {
 			Marker ma = dataHandler.getMarker(i);
-			// if (ma.isActive() && (ma.getDistance() / 1000f < radius || ma
-			// instanceof NavigationMarker || ma instanceof SocialMarker)) {
+			if (ma.isActive() && (ma.getDistance() / 1000f < radius || ma
+			instanceof NavigationMarker || ma instanceof SocialMarker)) {
 			if (ma.isActive() && (ma.getDistance() / 1000f < radius)) {
 
 				// To increase performance don't recalculate position vector
 				// for every marker on every draw call, instead do this only
 				// after onLocationChanged and after downloading new marker
-				// if (!frozen)
-				// ma.update(curFix);
+				if (!frozen)
+				ma.update(curFix);
 				if (!frozen)
 					ma.calcPaint(cam, addX, addY);
 				ma.draw(dw);
@@ -253,7 +224,7 @@ public class DataView {
 		}
 
 		// Draw Radar
-		drawRadar(dw);
+//		drawRadar(dw);
 
 		// Get next event
 		UIEvent evt = null;
@@ -274,6 +245,7 @@ public class DataView {
 			}
 		}
 		state.nextLStatus = MixState.PROCESSING;
+        }
 	}
 
 	/**
@@ -304,72 +276,18 @@ public class DataView {
 				retry++;
 				mixContext.getDownloadManager().submitJob(
 						dRes.getErrorRequest());
-				// Notification
-				// Toast.makeText(mixContext, dRes.errorMsg,
-				// Toast.LENGTH_SHORT).show();
 			}
 			
 			if(!dRes.isError()) {
 				if(dRes.getMarkers() != null){
 					//jLayer = (DataHandler) dRes.obj;
 					markers.addAll(dRes.getMarkers());
-
-					// Notification
-					Toast.makeText(
-							mixContext,
-							mixContext.getResources().getString(
-									R.string.download_received)
-									+ " " + dRes.getDataSource().getName(),
-							Toast.LENGTH_SHORT).show();
 				}
 			}
 		}
 		return markers;
 	}
 	
-
-	/**
-	 * Handles drawing radar and direction.
-	 */
-	private void drawRadar(PaintScreen dw) {
-		String dirTxt = "";
-		int bearing = (int) state.getCurBearing();
-		int range = (int) (state.getCurBearing() / (360f / 16f));
-		// TODO: get strings from the values xml file
-		if (range == 15 || range == 0)
-			dirTxt = getContext().getString(R.string.N);
-		else if (range == 1 || range == 2)
-			dirTxt = getContext().getString(R.string.NE);
-		else if (range == 3 || range == 4)
-			dirTxt = getContext().getString(R.string.E);
-		else if (range == 5 || range == 6)
-			dirTxt = getContext().getString(R.string.SE);
-		else if (range == 7 || range == 8)
-			dirTxt = getContext().getString(R.string.S);
-		else if (range == 9 || range == 10)
-			dirTxt = getContext().getString(R.string.SW);
-		else if (range == 11 || range == 12)
-			dirTxt = getContext().getString(R.string.W);
-		else if (range == 13 || range == 14)
-			dirTxt = getContext().getString(R.string.NW);
-
-		radarPoints.view = this;
-		dw.paintObj(radarPoints, rx, ry, -state.getCurBearing(), 1);
-		dw.setFill(false);
-		dw.setColor(Color.argb(150, 0, 0, 220));
-		dw.paintLine(lrl.x, lrl.y, rx + RadarPoints.RADIUS, ry
-				+ RadarPoints.RADIUS);
-		dw.paintLine(rrl.x, rrl.y, rx + RadarPoints.RADIUS, ry
-				+ RadarPoints.RADIUS);
-		dw.setColor(Color.rgb(255, 255, 255));
-		dw.setFontSize(12);
-
-		radarText(dw, MixUtils.formatDist(radius * 1000), rx
-				+ RadarPoints.RADIUS, ry + RadarPoints.RADIUS * 2 - 10, false);
-		radarText(dw, "" + bearing + ((char) 176) + " " + dirTxt, rx
-				+ RadarPoints.RADIUS, ry - 5, true);
-	}
-
 	private void handleKeyEvent(KeyEvent evt) {
 		/** Adjust marker position with keypad */
 		final float CONST = 10f;

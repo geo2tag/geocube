@@ -18,21 +18,17 @@
  */
 package org.mixare.data.convert;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.mixare.MixView;
 import org.mixare.POIMarker;
 import org.mixare.data.DataHandler;
 import org.mixare.data.DataSource;
 import org.mixare.lib.HtmlUnescape;
-import org.mixare.data.convert.DataProcessor;
 import org.mixare.lib.marker.Marker;
 
-import android.util.Log;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * A data processor for wikipedia urls or data, Responsible for converting raw data (to json and then) to marker data.

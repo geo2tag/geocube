@@ -16,6 +16,7 @@ import com.geocube.channels.ChannelsActivity;
 import com.geocube.location.MyLocationManager;
 import org.json.JSONObject;
 import org.mixare.MixView;
+import org.mixare.data.convert.Geo2TagDataProcessor;
 import ru.spb.osll.json.JsonLoadTagsRequest;
 import ru.spb.osll.json.JsonLoadTagsResponse;
 import ru.spb.osll.objects.Channel;
@@ -88,6 +89,11 @@ public class MainUserActivity extends Activity {
         liveMode.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Geo2TagDataProcessor.setAuthToken(authToken);
+                Geo2TagDataProcessor.setLatitude(latitude);
+                Geo2TagDataProcessor.setLongitude(longitude);
+                Geo2TagDataProcessor.setRadius(radius);
+
                 Intent in = new Intent(MainUserActivity.this, MixView.class);
                 startActivity(in);
             }

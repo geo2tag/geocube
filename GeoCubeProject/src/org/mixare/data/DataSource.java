@@ -46,7 +46,7 @@ public class DataSource extends Activity {
 	private String url;
 
 	public enum TYPE {
-		WIKIPEDIA, BUZZ, TWITTER, OSM, MIXARE, ARENA
+		WIKIPEDIA, GEO2TAG, BUZZ, TWITTER, OSM, MIXARE, ARENA
 	};
 
 	public enum DISPLAY {
@@ -190,6 +190,15 @@ public class DataSource extends Activity {
 						+ "&username=mixare";
 				break;
 
+
+			case ARENA:
+				ret += "&lat=" + Double.toString(lat) + "&lng="
+						+ Double.toString(lon);
+				break;
+
+			case OSM:
+				ret += DataConvertor.getOSMBoundingBox(lat, lon, radius);
+				break;
 			case BUZZ:
 				ret += "&lat=" + lat + "&lon=" + lon + "&radius=" + radius
 						* 1000;
@@ -207,14 +216,8 @@ public class DataSource extends Activity {
 						+ Double.toString(radius);
 				break;
 
-			case ARENA:
-				ret += "&lat=" + Double.toString(lat) + "&lng="
-						+ Double.toString(lon);
-				break;
-
-			case OSM:
-				ret += DataConvertor.getOSMBoundingBox(lat, lon, radius);
-				break;
+            case GEO2TAG:
+                break;
 			}
 
 		}
@@ -234,9 +237,9 @@ public class DataSource extends Activity {
 		case WIKIPEDIA:
 			ret = Color.RED;
 			break;
-		case ARENA:
-			ret = Color.RED;
-			break;
+//		case ARENA:
+//			ret = Color.RED;
+//			break;
 		default:
 			ret = Color.WHITE;
 			break;
@@ -247,21 +250,21 @@ public class DataSource extends Activity {
 	public int getDataSourceIcon() {
 		int ret;
 		switch (this.type) {
-		case BUZZ:
-			ret = R.drawable.buzz;
-			break;
-		case TWITTER:
-			ret = R.drawable.twitter;
-			break;
-		case OSM:
-			ret = R.drawable.logo;
-			break;
+//		case BUZZ:
+//			ret = R.drawable.buzz;
+//			break;
+//		case TWITTER:
+//			ret = R.drawable.twitter;
+//			break;
+//		case OSM:
+//			ret = R.drawable.logo;
+//			break;
 		case WIKIPEDIA:
 			ret = R.drawable.logo;
 			break;
-		case ARENA:
-			ret = R.drawable.arena;
-			break;
+//		case ARENA:
+//			ret = R.drawable.arena;
+//			break;
 		default:
 			ret = R.drawable.ic_launcher;
 			break;

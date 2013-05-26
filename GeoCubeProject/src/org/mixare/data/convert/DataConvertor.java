@@ -54,55 +54,22 @@ public class DataConvertor {
 	public void addDataProcessor(DataProcessor dataProcessor){
 		dataProcessors.add(dataProcessor);
 	}
-	
-	public void removeDataProcessor(DataProcessor dataProcessor){
-		dataProcessors.remove(dataProcessor);
-	}
-	
+
 	public List<Marker> load(String url, String rawResult, DataSource ds){
-		DataProcessor dataProcessor = searchForMatchingDataProcessors(url, rawResult, ds.getType());
-		if(dataProcessor == null){
-			dataProcessor = new MixareDataProcessor(); //using this as default if nothing is found.
-		}
+//        DataProcessor dataProcessor = new WikiDataProcessor();
+          DataProcessor dataProcessor = new Geo2TagDataProcessor();
+
 		try {
 			return dataProcessor.load(rawResult, ds.getTaskId(), ds.getColor());
 		} catch (JSONException e) {
-			/* Find Other Away to notify Error, for now Hide this error
-			 MixView.CONTEXT.runOnUiThread(new Runnable() {
-				@Override
-				public void run() {
-					Toast.makeText(MixView.CONTEXT, "Could not process the url data", Toast.LENGTH_LONG).show();
-				}
-			});
-			*/
-		}
-		return null;
-	}
-	
-	private DataProcessor searchForMatchingDataProcessors(String url, String rawResult, DataSource.TYPE type){
-		for(DataProcessor dp : dataProcessors){
-			if(dp.matchesRequiredType(type.name())){
-				//checking if url matches any dataprocessor identifiers
-				for(String urlIdentifier : dp.getUrlMatch()){
-					if(url.toLowerCase().contains(urlIdentifier.toLowerCase())){
-						return dp;
-					}
-				}
-				//checking if data matches any dataprocessor identifiers
-				for(String dataIdentifier : dp.getDataMatch()){
-					if(rawResult.contains(dataIdentifier)){
-						return dp;
-					}
-				}
-			}
+            e.printStackTrace();
 		}
 		return null;
 	}
 	
 	private void addDefaultDataProcessors(){
-		dataProcessors.add(new WikiDataProcessor());
-		dataProcessors.add(new TwitterDataProcessor());
-		dataProcessors.add(new OsmDataProcessor());
+//        dataProcessors.add(new WikiDataProcessor());
+        dataProcessors.add(new Geo2TagDataProcessor());
 	}
 	
 	public static String getOSMBoundingBox(double lat, double lon, double radius) {
