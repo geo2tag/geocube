@@ -1,19 +1,19 @@
 /*
  * Copyright (C) 2010- Peer internet solutions
- * 
+ *
  * This file is part of mixare.
- * 
- * This program is free software: you can redistribute it and/or modify it 
- * under the terms of the GNU General Public License as published by 
- * the Free Software Foundation, either version 3 of the License, or 
- * (at your option) any later version. 
- * 
+ *
+ * This program is free software: you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
  * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS 
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License 
- * for more details. 
- * 
- * You should have received a copy of the GNU General Public License along with 
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License
+ * for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
  * this program. If not, see <http://www.gnu.org/licenses/>
  */
 package org.mixare;
@@ -60,7 +60,7 @@ public class MixListView extends ListActivity {
 	private Vector<Boolean> dataSourceChecked;
 	private Vector<Integer> dataSourceIcon;
 	private DataView dataView;
-	
+
 	/*
 	private MixContext mixContext;
 	private ListItemAdapter adapter;
@@ -74,7 +74,7 @@ public class MixListView extends ListActivity {
 	public Vector<String> getDataSourceMenu() {
 		return dataSourceMenu;
 	}
-	
+
 	public Vector<String> getDataSourceDescription() {
 		return dataSourceDescription;
 	}
@@ -88,7 +88,7 @@ public class MixListView extends ListActivity {
 	@Override
 	public void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
-		dataView = MixView.getDataView();	
+		dataView = MixView.getDataView();
 
 		selectedItemURL = new Vector<String>();
 		listViewMenu = new Vector<SpannableString>();
@@ -186,7 +186,7 @@ public class MixListView extends ListActivity {
 			jLayer.setMarkerList(searchResultMarkers);
 			dataView.setFrozen(true);
 			finish();
-			Intent intent1 = new Intent(this, MixListView.class); 
+			Intent intent1 = new Intent(this, MixListView.class);
 			startActivityForResult(intent1, 42);
 		}
 	}
@@ -202,12 +202,12 @@ public class MixListView extends ListActivity {
 		/*if no website is available for this item*/
 		String selectedURL = position < selectedItemURL.size() ? selectedItemURL.get(position) : null;
 		if (selectedURL == null || selectedURL.length() <= 0)
-			Toast.makeText( this, getString(R.string.no_website_available), Toast.LENGTH_LONG ).show();			
+			Toast.makeText( this, getString(R.string.no_website_available), Toast.LENGTH_LONG ).show();
 		else if("search".equals(selectedURL)){
 			dataView.setFrozen(false);
 			dataView.getDataHandler().setMarkerList(originalMarkerList);
 			finish();
-			Intent intent1 = new Intent(this, MixListView.class); 
+			Intent intent1 = new Intent(this, MixListView.class);
 			startActivityForResult(intent1, 42);
 		}
 		else {
@@ -227,7 +227,7 @@ public class MixListView extends ListActivity {
 		int base = Menu.FIRST;
 
 		/*define menu items*/
-		MenuItem item1 = menu.add(base, base, base, getString(R.string.menu_item_3)); 
+		MenuItem item1 = menu.add(base, base, base, getString(R.string.menu_item_3));
 		MenuItem item2 = menu.add(base, base+1, base+1, getString(R.string.map_menu_cam_mode));
 		/*assign icons to the menu items*/
 		item1.setIcon(android.R.drawable.ic_menu_mapmode);
@@ -253,7 +253,7 @@ public class MixListView extends ListActivity {
 	}
 
 	public void createMixMap(){
-		Intent intent2 = new Intent(MixListView.this, MixMap.class); 
+		Intent intent2 = new Intent(MixListView.this, MixMap.class);
 		startActivityForResult(intent2, 20);
 	}
 
@@ -296,14 +296,14 @@ class ListItemAdapter extends BaseAdapter {
 			holder = new ViewHolder();
 			holder.text = (TextView) convertView.findViewById(R.id.list_text);
 			holder.description = (TextView) convertView.findViewById(R.id.description_text);
-			
+
 			convertView.setTag(holder);
 		}
 		else{
 			holder = (ViewHolder) convertView.getTag();
 		}
 
-		
+
 		holder.text.setPadding(20, 8, 0, 0);
 		holder.description.setPadding(20, 40, 0, 0);
 
@@ -332,19 +332,22 @@ class ListItemAdapter extends BaseAdapter {
 			bgcolors[i]=0;
 			textcolors[i]=Color.WHITE;
 		}
-		
+
 		if (source.equals("Wikipedia"))
 			changeColor(0, Color.WHITE, Color.DKGRAY);
-		else if (source.equals("Twitter"))
-			changeColor(1, Color.WHITE, Color.DKGRAY);
-		else if (source.equals("Buzz"))
-			changeColor(2, Color.WHITE, Color.DKGRAY);
-		else if (source.equals("OpenStreetMap"))
-			changeColor(3, Color.WHITE, Color.DKGRAY);
-		else if (source.equals("OwnURL"))
-			changeColor(4, Color.WHITE, Color.DKGRAY);
-		else if (source.equals("ARENA"))
-			changeColor(5, Color.WHITE, Color.DKGRAY);
+        else if (source.equals("Geo2tag"))
+            changeColor(0, Color.RED, Color.DKGRAY);
+//		else if (source.equals("Twitter"))
+//			changeColor(1, Color.WHITE, Color.DKGRAY);
+//		else if (source.equals("Buzz"))
+//			changeColor(2, Color.WHITE, Color.DKGRAY);
+//		else if (source.equals("OpenStreetMap"))
+//			changeColor(3, Color.WHITE, Color.DKGRAY);
+//		else if (source.equals("OwnURL"))
+//			changeColor(4, Color.WHITE, Color.DKGRAY);
+//		else if (source.equals("ARENA"))
+//			changeColor(5, Color.WHITE, Color.DKGRAY);
+//
 	}
 
 	@Override

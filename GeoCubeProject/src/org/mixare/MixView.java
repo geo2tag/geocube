@@ -74,11 +74,11 @@ public class MixView extends Activity implements SensorEventListener, OnTouchLis
 		try {
 			handleIntent(getIntent());
 
-			final PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
-			getMixViewData().setmWakeLock(pm.newWakeLock(PowerManager.SCREEN_BRIGHT_WAKE_LOCK, "My Tag"));
-
-			killOnError();
-			requestWindowFeature(Window.FEATURE_NO_TITLE);
+//			final PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
+//			getMixViewData().setmWakeLock(pm.newWakeLock(PowerManager.SCREEN_BRIGHT_WAKE_LOCK, "My Tag"));
+//
+//			killOnError();
+//			requestWindowFeature(Window.FEATURE_NO_TITLE);
 
 			maintainCamera();
 			maintainAugmentR();
@@ -110,7 +110,7 @@ public class MixView extends Activity implements SensorEventListener, OnTouchLis
 		super.onPause();
 
 		try {
-			this.getMixViewData().getmWakeLock().release();
+//			this.getMixViewData().getmWakeLock().release();
 
 			try {
 				getMixViewData().getSensorMgr().unregisterListener(this,
@@ -147,7 +147,8 @@ public class MixView extends Activity implements SensorEventListener, OnTouchLis
 		// check if the returned is request to refresh screen (setting might be
 		// changed)
 		try {
-			if (data.getBooleanExtra("RefreshScreen", false)) {
+//			if (data.getBooleanExtra("RefreshScreen", false)) {
+			if (data.getBooleanExtra("RefreshScreen", true)) {
 				repaint();
 			}
 
@@ -160,7 +161,7 @@ public class MixView extends Activity implements SensorEventListener, OnTouchLis
 	protected void onResume() {
 		super.onResume();
 		try {
-			this.getMixViewData().getmWakeLock().acquire();
+//			this.getMixViewData().getmWakeLock().acquire();
 
 			killOnError();
 			getMixViewData().getMixContext().doResume(this);
@@ -803,7 +804,7 @@ class MixViewDataHolder {
 	private Matrix m2;
 	private Matrix m3;
 	private Matrix m4;
-	private WakeLock mWakeLock;
+//	private WakeLock mWakeLock;
 	private int compassErrorDisplayed;
 	private String zoomLevel;
 	private int zoomProgress;
@@ -977,13 +978,13 @@ class MixViewDataHolder {
 		this.m4 = m4;
 	}
 
-	public WakeLock getmWakeLock() {
-		return mWakeLock;
-	}
-
-	public void setmWakeLock(WakeLock mWakeLock) {
-		this.mWakeLock = mWakeLock;
-	}
+//	public WakeLock getmWakeLock() {
+//		return mWakeLock;
+//	}
+//
+//	public void setmWakeLock(WakeLock mWakeLock) {
+//		this.mWakeLock = mWakeLock;
+//	}
 
 	public int getCompassErrorDisplayed() {
 		return compassErrorDisplayed;

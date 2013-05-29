@@ -28,33 +28,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e516c59-067a-46ae-a52e-3fed42ed8076" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/mixare/data/convert/Geo2TagDataProcessor.java" />
-      <change type="DELETED" beforePath="C:\gitrepos\diploma\geocube\GeoCubeProject\src\org\mixare\PluginLoaderActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\gitrepos\diploma\geocube\GeoCubeProject\src\org\mixare\data\convert\MixareDataProcessor.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\gitrepos\diploma\geocube\GeoCubeProject\src\org\mixare\data\convert\OsmDataProcessor.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\gitrepos\diploma\geocube\GeoCubeProject\src\org\mixare\data\convert\TwitterDataProcessor.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\gitrepos\diploma\geocube\GeoCubeProject\src\org\mixare\gui\RadarPoints.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\gitrepos\diploma\geocube\GeoCubeProject\src\org\mixare\lib\data\PluginDataProcessor.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\gitrepos\diploma\geocube\GeoCubeProject\src\org\mixare\lib\marker\draw\DrawArrow.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\gitrepos\diploma\geocube\GeoCubeProject\src\org\mixare\lib\marker\draw\DrawImage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\gitrepos\diploma\geocube\GeoCubeProject\src\org\mixare\lib\marker\draw\DrawTextBox.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Пояснительная записка к дипломной работе.docx" afterPath="$PROJECT_DIR$/../Пояснительная записка к дипломной работе.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/mixare/data/convert/DataConvertor.java" afterPath="$PROJECT_DIR$/src/org/mixare/data/convert/DataConvertor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/mixare/data/convert/DataProcessor.java" afterPath="$PROJECT_DIR$/src/org/mixare/data/convert/DataProcessor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/mixare/data/DataSource.java" afterPath="$PROJECT_DIR$/src/org/mixare/data/DataSource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/mixare/mgr/datasource/DataSourceManagerFactory.java" afterPath="$PROJECT_DIR$/src/org/mixare/mgr/datasource/DataSourceManagerFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/mixare/DataView.java" afterPath="$PROJECT_DIR$/src/org/mixare/DataView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/mixare/data/convert/Geo2TagDataProcessor.java" afterPath="$PROJECT_DIR$/src/org/mixare/data/convert/Geo2TagDataProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/mixare/lib/HtmlUnescape.java" afterPath="$PROJECT_DIR$/src/org/mixare/lib/HtmlUnescape.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/mixare/mgr/location/LocationFinder.java" afterPath="$PROJECT_DIR$/src/org/mixare/mgr/location/LocationFinder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/LoginActivity.java" afterPath="$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/activities/mainUserActivities/MainUserActivity.java" afterPath="$PROJECT_DIR$/src/com/geocube/activities/mainUserActivities/MainUserActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/mixare/MixContext.java" afterPath="$PROJECT_DIR$/src/org/mixare/MixContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/mixare/MixListView.java" afterPath="$PROJECT_DIR$/src/org/mixare/MixListView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/mixare/MixMap.java" afterPath="$PROJECT_DIR$/src/org/mixare/MixMap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/mixare/MixView.java" afterPath="$PROJECT_DIR$/src/org/mixare/MixView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/geocube/location/MyLocationManager.java" afterPath="$PROJECT_DIR$/src/com/geocube/location/MyLocationManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/mixare/lib/gui/PaintScreen.java" afterPath="$PROJECT_DIR$/src/org/mixare/lib/gui/PaintScreen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/mixare/lib/marker/PluginMarker.java" afterPath="$PROJECT_DIR$/src/org/mixare/lib/marker/PluginMarker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/mixare/mgr/webcontent/WebContentManager.java" afterPath="$PROJECT_DIR$/src/org/mixare/mgr/webcontent/WebContentManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/mixare/data/convert/WikiDataProcessor.java" afterPath="$PROJECT_DIR$/src/org/mixare/data/convert/WikiDataProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/arrays.xml" afterPath="$PROJECT_DIR$/res/values/arrays.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GeoCubeProject.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369562319512" ignored="false" />
-    <file path="/fragment.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369568337178" ignored="false" />
+    <file path="/Dummy.txt" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369764465215" ignored="false" />
+    <file path="/fragment.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369779168166" ignored="false" />
     <file path="/MyCube.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1365352985747" ignored="false" />
     <file path="/MainActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366053362326" ignored="false" />
     <file path="/FilterRequest.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361173458142" ignored="false" />
@@ -67,7 +63,7 @@
     <file path="C:/TestAndroidGEO/res/values/strings.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361177038267" ignored="false" />
     <file path="C:/TestAndroidGEO/src/ru/spb/osll/GDS/LoginActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361177511088" ignored="false" />
     <file path="C:/TestAndroidGEO/.idea/workspace.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361177656538" ignored="false" />
-    <file path="/LoginActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1368468343869" ignored="false" />
+    <file path="/LoginActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369769304078" ignored="false" />
     <file path="/RegisterActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1362561946808" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/geocube/mainUserActivities.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1361182728377" ignored="false" />
     <file path="/MainUserActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369571400317" ignored="false" />
@@ -181,14 +177,22 @@
     <file path="$PROJECT_DIR$/../../mixare-master/plugins/mixare-arena-splashscreen-plugin/src/org/mixare/plugin/arenasplash/ArenaSplashActivity.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366052766848" ignored="false" />
     <file path="$PROJECT_DIR$/../../mixare-master/plugins/mixare-arena-processor-plugin/src/org/mixare/plugin/arenaprocessor/service/ArenaProcessorService.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366052778387" ignored="false" />
     <file path="$PROJECT_DIR$/../../mixare-master/plugins/mixare-arena-processor-plugin/AndroidManifest.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1366052778387" ignored="false" />
-    <file path="/MixView.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369166711635" ignored="false" />
-    <file path="/DataSource.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369082505180" ignored="false" />
-    <file path="/Geo2TagDataProcessor.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369571589833" ignored="false" />
+    <file path="/MixView.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369777276324" ignored="false" />
+    <file path="/DataSource.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369780397672" ignored="false" />
+    <file path="/Geo2TagDataProcessor.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369848531794" ignored="false" />
     <file path="C:/nshkurs/src/Main.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369083397729" ignored="false" />
     <file path="/Main.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369083392289" ignored="false" />
     <file path="/DataConvertor.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369572048066" ignored="false" />
-    <file path="/DataView.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369157295670" ignored="false" />
-    <file path="/a.dummy" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369572229822" ignored="false" />
+    <file path="/DataView.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369768780084" ignored="false" />
+    <file path="/a.dummy" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369580564040" ignored="false" />
+    <file path="/HttpTools.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369574650575" ignored="false" />
+    <file path="/a.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369575571937" ignored="false" />
+    <file path="/*.regexp" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369779085349" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/geocube/Manifest.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369764466769" ignored="false" />
+    <file path="/arrays.xml" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369771599803" ignored="false" />
+    <file path="/MixListView.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369780843366" ignored="false" />
+    <file path="/RemoteDataHandler.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369779603554" ignored="false" />
+    <file path="/DownloadMgrImpl.java" changelist="7e516c59-067a-46ae-a52e-3fed42ed8076" time="1369779893434" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,8 +226,8 @@
         <option name="CONDITION_ENABLED" value="false" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -238,13 +242,13 @@
         <option name="CONDITION_ENABLED" value="false" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/RegisterActivity.java" line="53" class="com.geocube.activities.loginRegisterActivities.RegisterActivity$1" package="com.geocube.activities.loginRegisterActivities">
+      <breakpoint url="file://$PROJECT_DIR$/src/org/mixare/MixView.java" line="306" class="org.mixare.MixView" package="org.mixare">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -268,46 +272,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="WikiDataProcessor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/mixare/data/convert/WikiDataProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="79" selection-start="1759" selection-end="1759" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSource.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/mixare/data/DataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="231" column="34" selection-start="6635" selection-end="6635" vertical-scroll-proportion="0.64351004">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Geo2TagDataProcessor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/mixare/data/convert/Geo2TagDataProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="36" selection-start="1829" selection-end="1829" vertical-scroll-proportion="0.0">
+            <state line="90" column="76" selection-start="2968" selection-end="2968" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1753#1761#0" expanded="true" />
-                <element signature="e#1816#1825#0" expanded="true" />
+                <element signature="e#1858#1866#0" expanded="true" />
+                <element signature="e#1921#1930#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataView.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/mixare/DataView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="421" column="59" selection-start="10144" selection-end="10144" vertical-scroll-proportion="0.44765344">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4844#4964#0" expanded="true" />
-                <element signature="e#4956#4957#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MixContext.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/mixare/MixContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="32" selection-start="2886" selection-end="2886" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataConvertor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/mixare/data/convert/DataConvertor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="30" selection-start="1776" selection-end="1776" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -330,29 +323,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/geocube/ProjectConstants.java" />
-        <option value="$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/src/org/mixare/data/convert/OsmDataProcessor.java" />
-        <option value="$PROJECT_DIR$/src/org/mixare/data/convert/TwitterDataProcessor.java" />
-        <option value="$PROJECT_DIR$/src/org/mixare/data/DataSource.java" />
-        <option value="$PROJECT_DIR$/src/org/mixare/mgr/datasource/DataSourceManagerFactory.java" />
-        <option value="$PROJECT_DIR$/src/org/mixare/lib/marker/draw/DrawTextBox.java" />
-        <option value="$PROJECT_DIR$/src/org/mixare/data/convert/WikiDataProcessor.java" />
-        <option value="$PROJECT_DIR$/src/com/geocube/location/MyLocationManager.java" />
-        <option value="$PROJECT_DIR$/src/com/geocube/activities/mainUserActivities/MainUserActivity.java" />
-        <option value="$PROJECT_DIR$/src/org/mixare/data/convert/Geo2TagDataProcessor.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/lib/gui/PaintScreen.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/mgr/location/LocationFinder.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/mgr/webcontent/WebContentManager.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/MixMap.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/MixListView.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/lib/marker/PluginMarker.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/lib/HtmlUnescape.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/mgr/downloader/DownloadMgrImpl.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/mgr/downloader/DownloadRequest.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/plugin/connection/DataHandlerServiceConnection.java" />
         <option value="$PROJECT_DIR$/src/org/mixare/data/convert/DataConvertor.java" />
-        <option value="$PROJECT_DIR$/src/org/mixare/MixView.java" />
-        <option value="$PROJECT_DIR$/src/org/mixare/MixContext.java" />
-        <option value="$PROJECT_DIR$/src/org/mixare/DataView.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/data/convert/DataProcessor.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/plugin/remoteobjects/RemoteDataHandler.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/data/DataSource.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/data/convert/Geo2TagDataProcessor.java" />
+        <option value="$PROJECT_DIR$/src/org/mixare/data/convert/WikiDataProcessor.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="y" value="-2" />
-    <option name="width" value="1378" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -402,7 +395,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -494,28 +486,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MixListView.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mixare" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataView.java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -975,146 +945,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geocube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geocube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="channels" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geocube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mainUserActivities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geocube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mainActivity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geocube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="loginRegisterActivities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GeoCubeProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geocube" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activities" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -1127,6 +957,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1135,22 +966,22 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="preferences.sourceCode.XML" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -1221,19 +1052,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1260,6 +1078,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1394,37 +1225,37 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="-2" width="1378" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.006849315" sideWeight="0.4969697" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.07534247" sideWeight="0.4969697" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1969178" sideWeight="0.4855923" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.07534247" sideWeight="0.4855923" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14383562" sideWeight="0.5174242" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4280822" sideWeight="0.49225014" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.09760274" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26541096" sideWeight="0.49225014" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24919957" sideWeight="0.953125" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24848485" sideWeight="0.953125" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2530395" sideWeight="0.9931507" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.05479452" sideWeight="0.47727272" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4236111" sideWeight="0.9754464" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25681818" sideWeight="0.9811644" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.018835617" sideWeight="0.47727272" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42325228" sideWeight="0.9109589" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16862327" sideWeight="0.6238839" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18910256" sideWeight="0.9754464" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.9296875" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1899696" sideWeight="0.9109589" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.9296875" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1493,140 +1324,141 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/values/arrays.xml">
+    <entry file="file://$PROJECT_DIR$/src/org/mixare/mgr/location/LocationFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="57" selection-start="397" selection-end="397" vertical-scroll-proportion="0.374">
+        <state line="39" column="65" selection-start="1269" selection-end="1269" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/mixare/lib/reality/PhysicalPlace.java">
+    <entry file="file://$PROJECT_DIR$/src/org/mixare/plugin/connection/DataHandlerServiceConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="36" selection-start="3563" selection-end="3563" vertical-scroll-proportion="3.4971428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/mixare/data/convert/WikiDataProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="26" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.0">
+        <state line="39" column="44" selection-start="1561" selection-end="1561" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#2856#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/geocube/location/MyLocationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="273" selection-end="273" vertical-scroll-proportion="0.12927757">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/geocube/activities/loginRegisterActivities/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="25" selection-start="1906" selection-end="1906" vertical-scroll-proportion="1.1311787">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/mixare/mgr/downloader/ManagedDownloadRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="35" selection-start="834" selection-end="841" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/geocube/channels/ChannelsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="0" selection-start="2361" selection-end="2361" vertical-scroll-proportion="1.809886">
-          <folding>
-            <element signature="e#1419#1731#0" expanded="true" />
-            <element signature="e#1720#1721#0" expanded="true" />
-            <element signature="e#2400#2814#0" expanded="true" />
-            <element signature="e#2803#2804#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spb/osll/json/JsonLoadTagsResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="16" selection-start="2105" selection-end="2105" vertical-scroll-proportion="0.33269963">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/geocube/activities/mainUserActivities/MainUserActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="45" selection-start="3419" selection-end="3419" vertical-scroll-proportion="0.26779026">
-          <folding>
-            <element signature="e#2836#3306#0" expanded="true" />
-            <element signature="e#3295#3296#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/mixare/mgr/downloader/DownloadMgrImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="31" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/mixare/data/convert/DataConvertor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="30" selection-start="1776" selection-end="1776" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="18" selection-start="4875" selection-end="4892" vertical-scroll-proportion="-6.24">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/mixare/data/convert/Geo2TagDataProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="36" selection-start="1829" selection-end="1829" vertical-scroll-proportion="0.0">
+        <state line="62" column="35" selection-start="2033" selection-end="2033" vertical-scroll-proportion="0.0">
           <folding>
+            <element signature="e#0#2863#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#1753#1761#0" expanded="true" />
-            <element signature="e#1816#1825#0" expanded="true" />
+            <element signature="e#1347#1362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mixare/data/convert/DataProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="73" selection-start="1299" selection-end="1299" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#1525#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mixare/MixView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="81" selection-start="2305" selection-end="2305" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#26561#0" expanded="true" />
+            <element signature="method#onRestart#0;class#MixView#0" expanded="false" />
+            <element signature="e#16329#16337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mixare/MixMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="13" selection-start="2149" selection-end="2149" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mixare/MixListView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="360" column="27" selection-start="10884" selection-end="10884" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#11033#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/mixare/MixContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="32" selection-start="2886" selection-end="2886" vertical-scroll-proportion="0.0">
+        <state line="40" column="13" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/mixare/MixView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="865" column="11" selection-start="24831" selection-end="24831" vertical-scroll-proportion="-5.7485824">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#11117#11467#0" expanded="true" />
-            <element signature="e#11462#11463#0" expanded="true" />
-            <element signature="e#11871#12059#0" expanded="true" />
-            <element signature="e#12054#12055#0" expanded="true" />
-            <element signature="e#18087#18095#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/mixare/DataView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="421" column="59" selection-start="10144" selection-end="10144" vertical-scroll-proportion="0.44765344">
+        <state line="410" column="6" selection-start="10097" selection-end="10097" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#7048#7056#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mixare/plugin/PluginType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="12" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mixare/plugin/remoteobjects/RemoteDataHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="13" selection-start="2623" selection-end="2623" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mixare/mgr/downloader/DownloadMgrImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="28" selection-start="2817" selection-end="2817" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4844#4964#0" expanded="true" />
-            <element signature="e#4956#4957#0" expanded="true" />
+            <element signature="e#1454#1478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mixare/mgr/downloader/DownloadRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="14" selection-start="1323" selection-end="1323" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mixare/data/convert/Geo2TagDataProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="76" selection-start="2968" selection-end="2968" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1858#1866#0" expanded="true" />
+            <element signature="e#1921#1930#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mixare/data/convert/WikiDataProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="79" selection-start="1759" selection-end="1759" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/mixare/data/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="231" column="34" selection-start="6635" selection-end="6635" vertical-scroll-proportion="0.64351004">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -22,6 +22,7 @@ public class Geo2TagDataProcessor extends DataHandler implements DataProcessor {
     private static double latitude;
     private static double longitude;
     private static double radius;
+    public static Geo2TagDataProcessor instance;
 
     public static void setAuthToken(String authToken) {
         Geo2TagDataProcessor.authToken = authToken;
@@ -60,6 +61,7 @@ public class Geo2TagDataProcessor extends DataHandler implements DataProcessor {
     }
 
     @Override
+//    public List<Marker> load() throws JSONException {
     public List<Marker> load(String rawData, int taskId, int colour) throws JSONException {
         List<Marker> markers = new ArrayList<Marker>();
         ArrayList<Channel> channels = new ArrayList<Channel>();
@@ -76,7 +78,11 @@ public class Geo2TagDataProcessor extends DataHandler implements DataProcessor {
 
         if (!channels.isEmpty()) {
             for (Channel ch : channels) {
-                for (Mark m : ch.getMarks()) {
+                ArrayList<Mark> marks = (ArrayList<Mark>) ch.getMarks();
+                int size = marks.size();
+                int count = Math.min(size, 10);
+                for (int i = 0; i < count; i++) {
+                   Mark m = marks.get(i);
                     Marker ma = new POIMarker(
                             m.getTitle(),
                             HtmlUnescape.unescapeHTML(m.getDescription(), 0),
@@ -92,5 +98,6 @@ public class Geo2TagDataProcessor extends DataHandler implements DataProcessor {
 
         return markers;
     }
+
 
 }

@@ -35,7 +35,7 @@ public class PaintScreen implements Parcelable{
 	Canvas canvas;
 	int width, height;
 	Paint paint = new Paint();
-	Paint bPaint = new Paint();
+//	Paint bPaint = new Paint();
 
 	public PaintScreen() {
 		paint.setTextSize(16);

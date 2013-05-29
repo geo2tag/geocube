@@ -190,12 +190,12 @@ public class MixMap extends MapActivity implements OnTouchListener{
 
 	public void createListView(){
 		if (dataView.getDataHandler().getMarkerCount() > 0) {
-			Intent intent1 = new Intent(MixMap.this, MixListView.class); 
+			Intent intent1 = new Intent(MixMap.this, MixListView.class);
 			startActivityForResult(intent1, 42);
 		}
 		/*if the list is empty*/
 		else{
-			Toast.makeText( this, R.string.empty_list, Toast.LENGTH_LONG ).show();			
+			Toast.makeText( this, R.string.empty_list, Toast.LENGTH_LONG ).show();
 		}
 	}
 	

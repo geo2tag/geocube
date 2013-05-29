@@ -44,6 +44,11 @@ public class LoginActivity extends Activity {
       rememberMe = (CheckBox) findViewById(R.id.rememberMeCheck);
       rememberMe.setChecked(true);
 
+        //-------
+        loginText.setText("Mark");
+        passText.setText("test");
+        //-----
+
       authToken = checkIsRemembered();
 
       loginButton.setOnClickListener(new View.OnClickListener() {

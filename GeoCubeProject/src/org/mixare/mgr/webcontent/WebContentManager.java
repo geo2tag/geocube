@@ -38,7 +38,6 @@ public interface WebContentManager {
 	 * 
 	 * @param url
 	 *            the url to process
-	 * @param view
 	 * @return
 	 */
 	boolean processUrl(String url, Context ctx);

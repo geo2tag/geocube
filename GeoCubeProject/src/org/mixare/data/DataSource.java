@@ -20,7 +20,7 @@
 package org.mixare.data;
 
 import com.geocube.R;
-import org.mixare.data.convert.DataConvertor;
+//import org.mixare.data.convert.DataConvertor;
 
 import android.app.Activity;
 import android.graphics.Color;
@@ -46,11 +46,11 @@ public class DataSource extends Activity {
 	private String url;
 
 	public enum TYPE {
-		WIKIPEDIA, GEO2TAG, BUZZ, TWITTER, OSM, MIXARE, ARENA
+		GEO2TAG /*, WIKIPEDIA, BUZZ, TWITTER, OSM, MIXARE, ARENA*/
 	};
 
 	public enum DISPLAY {
-		CIRCLE_MARKER, NAVIGATION_MARKER, IMAGE_MARKER
+		CIRCLE_MARKER /*, NAVIGATION_MARKER, IMAGE_MARKER*/
 	};
 
 	private boolean enabled;
@@ -180,41 +180,41 @@ public class DataSource extends Activity {
 		if (!ret.startsWith("file://")) {
 			switch (this.type) {
 
-			case WIKIPEDIA:
-				float geoNamesRadius = radius > 20 ? 20 : radius; // Free
-																	// service
-																	// limited
-																	// to 20km
-				ret += "?lat=" + lat + "&lng=" + lon + "&radius="
-						+ geoNamesRadius + "&maxRows=50" + "&lang=" + locale
-						+ "&username=mixare";
-				break;
+//			case WIKIPEDIA:
+//				float geoNamesRadius = radius > 20 ? 20 : radius; // Free
+//																	// service
+//																	// limited
+//																	// to 20km
+//				ret += "?lat=" + lat + "&lng=" + lon + "&radius="
+//						+ geoNamesRadius + "&maxRows=50" + "&lang=" + locale
+//						+ "&username=mixare";
+//				break;
 
 
-			case ARENA:
-				ret += "&lat=" + Double.toString(lat) + "&lng="
-						+ Double.toString(lon);
-				break;
-
-			case OSM:
-				ret += DataConvertor.getOSMBoundingBox(lat, lon, radius);
-				break;
-			case BUZZ:
-				ret += "&lat=" + lat + "&lon=" + lon + "&radius=" + radius
-						* 1000;
-				break;
-
-			case TWITTER:
-				ret += "?geocode=" + lat + "%2C" + lon + "%2C"
-						+ Math.max(radius, 1.0) + "km";
-				break;
-
-			case MIXARE:
-				ret += "?latitude=" + Double.toString(lat) + "&longitude="
-						+ Double.toString(lon) + "&altitude="
-						+ Double.toString(alt) + "&radius="
-						+ Double.toString(radius);
-				break;
+//			case ARENA:
+//				ret += "&lat=" + Double.toString(lat) + "&lng="
+//						+ Double.toString(lon);
+//				break;
+//
+//			case OSM:
+//				ret += DataConvertor.getOSMBoundingBox(lat, lon, radius);
+//				break;
+//			case BUZZ:
+//				ret += "&lat=" + lat + "&lon=" + lon + "&radius=" + radius
+//						* 1000;
+//				break;
+//
+//			case TWITTER:
+//				ret += "?geocode=" + lat + "%2C" + lon + "%2C"
+//						+ Math.max(radius, 1.0) + "km";
+//				break;
+//
+//			case MIXARE:
+//				ret += "?latitude=" + Double.toString(lat) + "&longitude="
+//						+ Double.toString(lon) + "&altitude="
+//						+ Double.toString(alt) + "&radius="
+//						+ Double.toString(radius);
+//				break;
 
             case GEO2TAG:
                 break;
@@ -228,20 +228,20 @@ public class DataSource extends Activity {
 	public int getColor() {
 		int ret;
 		switch (this.type) {
-		case BUZZ:
-			ret = Color.rgb(4, 228, 20);
-			break;
-		case TWITTER:
-			ret = Color.rgb(50, 204, 255);
-			break;
-		case WIKIPEDIA:
-			ret = Color.RED;
-			break;
+//		case BUZZ:
+//			ret = Color.rgb(4, 228, 20);
+//			break;
+//		case TWITTER:
+//			ret = Color.rgb(50, 204, 255);
+//			break;
+//		case WIKIPEDIA:
+//			ret = Color.RED;
+//			break;
 //		case ARENA:
 //			ret = Color.RED;
 //			break;
 		default:
-			ret = Color.WHITE;
+			ret = Color.RED;
 			break;
 		}
 		return ret;
@@ -259,9 +259,9 @@ public class DataSource extends Activity {
 //		case OSM:
 //			ret = R.drawable.logo;
 //			break;
-		case WIKIPEDIA:
-			ret = R.drawable.logo;
-			break;
+//		case WIKIPEDIA:
+//			ret = R.drawable.logo;
+//			break;
 //		case ARENA:
 //			ret = R.drawable.arena;
 //			break;

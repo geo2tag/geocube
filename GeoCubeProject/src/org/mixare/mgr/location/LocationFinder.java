@@ -40,7 +40,6 @@ public interface LocationFinder {
 
 	/**
 	 * Finds the location through the providers  
-	 * @param ctx
 	 * @return
 	 */
 	void findLocation();

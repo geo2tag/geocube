@@ -1,21 +1,21 @@
 /*
- * Copyright (C) 2012- Peer internet solutions & Finalist IT Group
- * 
- * This file is part of mixare.
- * 
- * This program is free software: you can redistribute it and/or modify it 
- * under the terms of the GNU General Public License as published by 
- * the Free Software Foundation, either version 3 of the License, or 
- * (at your option) any later version. 
- * 
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS 
- * FOR A PARTICULAR PURPOSE. See the GNU General Public License 
- * for more details. 
- * 
- * You should have received a copy of the GNU General Public License along with 
- * this program. If not, see <http://www.gnu.org/licenses/>
- */
+* Copyright (C) 2012- Peer internet solutions & Finalist IT Group
+*
+* This file is part of mixare.
+*
+* This program is free software: you can redistribute it and/or modify it
+* under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful, but WITHOUT
+* ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+* FOR A PARTICULAR PURPOSE. See the GNU General Public License
+* for more details.
+*
+* You should have received a copy of the GNU General Public License along with
+* this program. If not, see <http://www.gnu.org/licenses/>
+*/
 package org.mixare.lib.marker;
 
 import java.net.URLDecoder;
@@ -33,12 +33,12 @@ import org.mixare.lib.render.MixVector;
 import android.location.Location;
 
 /**
- * A plugin marker that should be extended by marker plugins.
- * @author A. Egal
- *
- */
+* A plugin marker that should be extended by marker plugins.
+* @author A. Egal
+*
+*/
 public abstract class PluginMarker{
-	
+
 	private String ID;
 	protected String title;
 	protected boolean underline = false;
@@ -61,7 +61,7 @@ public abstract class PluginMarker{
 	private MixVector upV = new MixVector(0, 1, 0);
 	public Label txtLab = new Label();
 	protected TextObj textBlock;
-	
+
 	public PluginMarker(int id, String title, double latitude, double longitude, double altitude, String link, int type, int colour) {
 		super();
 
@@ -76,8 +76,8 @@ public abstract class PluginMarker{
 
 		this.ID= id + "##"+ type +"##"+title;
 
-	}	
-	
+	}
+
 	public String getURL() {
 		return URL;
 	}
@@ -153,7 +153,7 @@ public abstract class PluginMarker{
 	}
 
 	public abstract DrawCommand[] remoteDraw();
-	
+
 	public void update(Location curGPSFix) {
 		// An elevation of 0.0 probably means that the elevation of the
 		// POI is not known and should be set to the users GPS height
@@ -173,12 +173,12 @@ public abstract class PluginMarker{
 		cCMarker(origin, viewCam, addX, addY);
 		calcV(viewCam);
 	}
-	
+
 	private void cCMarker(MixVector originalPoint, Camera viewCam, float addX, float addY) {
 		// Temp properties
 		MixVector tmpa = new MixVector(originalPoint);
 		MixVector tmpc = new MixVector(upV);
-		tmpa.add(locationVector); //3 
+		tmpa.add(locationVector); //3
 		tmpc.add(locationVector); //3
 		tmpa.sub(viewCam.lco); //4
 		tmpc.sub(viewCam.lco); //4
@@ -194,7 +194,7 @@ public abstract class PluginMarker{
 
 	private void calcV(Camera viewCam) {
 		isVisible = true;
-		
+
 		if (cMarker.z < -1f) {
 			isVisible = true;
 
@@ -203,7 +203,7 @@ public abstract class PluginMarker{
 			//}
 		}
 	}
-	
+
 	public void setTxtLab(Label txtLab) {
 		this.txtLab = txtLab;
 	}
@@ -211,14 +211,14 @@ public abstract class PluginMarker{
 	public Label getTxtLab() {
 		return txtLab;
 	}
-	
+
 	public void setExtras(String name, ParcelableProperty parcelableProperty){
 		//can be overriden
 	}
-	
+
 	public void setExtras(String name, PrimitiveProperty primitiveProperty){
 		//can be overriden
 	}
-	
+
 
 }
