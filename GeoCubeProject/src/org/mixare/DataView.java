@@ -71,7 +71,7 @@ public class DataView {
 
 	/** timer to refresh the browser */
 	private Timer refresh = null;
-	private final long refreshDelay = 45 * 1000; // refresh every 45 seconds
+	private final long refreshDelay = 5 * 1000; // refresh every 5 seconds
 
 	private boolean isLauncherStarted;
 
@@ -150,10 +150,6 @@ public class DataView {
 	}
 
 	public void requestData(String url) {
-//		DownloadRequest request = new DownloadRequest(new DataSource(
-//				"LAUNCHER", url, DataSource.TYPE.MIXARE,
-//				DataSource.DISPLAY.CIRCLE_MARKER, true));
-
         DownloadRequest request = new DownloadRequest(new DataSource(
                 "LAUNCHER", url, DataSource.TYPE.GEO2TAG,
                 DataSource.DISPLAY.CIRCLE_MARKER, true));
@@ -222,14 +218,12 @@ public class DataView {
 				// after onLocationChanged and after downloading new marker
 				if (!frozen)
 				ma.update(curFix);
+
 				if (!frozen)
 					ma.calcPaint(cam, addX, addY);
 				ma.draw(dw);
 			}
 		}
-
-		// Draw Radar
-//		drawRadar(dw);
 
 		// Get next event
 		UIEvent evt = null;
@@ -337,22 +331,6 @@ public class DataView {
 		}
 		return evtHandled;
 	}
-
-//	private void radarText(PaintScreen dw, String txt, float x, float y, boolean bg) {
-//		float padw = 4, padh = 2;
-//		float w = dw.getTextWidth(txt) + padw * 2;
-//		float h = dw.getTextAsc() + dw.getTextDesc() + padh * 2;
-//		if (bg) {
-//			dw.setColor(Color.rgb(0, 0, 0));
-//			dw.setFill(true);
-//			dw.paintRect(x - w / 2, y - h / 2, w, h);
-//			dw.setColor(Color.rgb(255, 255, 255));
-//			dw.setFill(false);
-//			dw.paintRect(x - w / 2, y - h / 2, w, h);
-//		}
-//		dw.paintText(padw + x - w / 2, padh + dw.getTextAsc() + y - h / 2, txt,
-//				false);
-//	}
 
 	public void clickEvent(float x, float y) {
 		synchronized (uiEvents) {

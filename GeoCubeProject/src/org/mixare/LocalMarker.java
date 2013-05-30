@@ -137,9 +137,6 @@ public abstract class LocalMarker implements Marker {
 
 	private void calcV(Camera viewCam) {
 		isVisible = false;
-//		isLookingAt = false;
-//		deltaCenter = Float.MAX_VALUE;
-
 		if (cMarker.z < -1f) {
 			isVisible = true;
 		}
@@ -162,10 +159,6 @@ public abstract class LocalMarker implements Marker {
 		cCMarker(origin, viewCam, addX, addY);
 		calcV(viewCam);
 	}
-
-//	private void calcPaint(Camera viewCam) {
-//		cCMarker(origin, viewCam, 0, 0);
-//	}
 
 	private boolean isClickValid(float x, float y) {
 		

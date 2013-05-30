@@ -56,7 +56,6 @@ public class DataConvertor {
 	}
 
 	public List<Marker> load(String url, String rawResult, DataSource ds){
-//        DataProcessor dataProcessor = new WikiDataProcessor();
           DataProcessor dataProcessor = new Geo2TagDataProcessor();
 
 		try {
@@ -68,20 +67,8 @@ public class DataConvertor {
 	}
 
 	private void addDefaultDataProcessors(){
-//        dataProcessors.add(new WikiDataProcessor());
         dataProcessors.add(new Geo2TagDataProcessor());
 	}
 
-//	public static String getOSMBoundingBox(double lat, double lon, double radius) {
-//		String bbox = "[bbox=";
-//		PhysicalPlace lb = new PhysicalPlace(); // left bottom
-//		PhysicalPlace rt = new PhysicalPlace(); // right top
-//		PhysicalPlace.calcDestination(lat, lon, 225, radius*1414, lb); // 1414: sqrt(2)*1000
-//		PhysicalPlace.calcDestination(lat, lon, 45, radius*1414, rt);
-//		bbox+=lb.getLongitude()+","+lb.getLatitude()+","+rt.getLongitude()+","+rt.getLatitude()+"]";
-//		return bbox;
-//
-//		//return "[bbox=16.365,48.193,16.374,48.199]";
-//	}
 
 }

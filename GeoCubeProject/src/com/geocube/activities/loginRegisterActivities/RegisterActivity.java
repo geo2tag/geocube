@@ -6,6 +6,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -16,13 +17,6 @@ import org.json.JSONObject;
 import ru.spb.osll.json.JsonRegisterUserReguest;
 import ru.spb.osll.json.JsonRegisterUserResponse;
 
-/**
- * Created with IntelliJ IDEA.
- * User: maru
- * Date: 18.02.13
- * Time: 13:32
- * To change this template use File | Settings | File Templates.
- */
 public class RegisterActivity extends Activity {
     private Button register;
     private EditText pass;
@@ -50,6 +44,9 @@ public class RegisterActivity extends Activity {
                 String emailString = email.getText().toString();
                 String passString = pass.getText().toString();
                 String loginString = login.getText().toString();
+
+                StrictMode.ThreadPolicy tp = StrictMode.ThreadPolicy.LAX;
+                StrictMode.setThreadPolicy(tp);
 
                 JsonRegisterUserReguest regRequest = new JsonRegisterUserReguest(emailString, loginString,
                                     passString, ProjectConstants.SERVER_URL);

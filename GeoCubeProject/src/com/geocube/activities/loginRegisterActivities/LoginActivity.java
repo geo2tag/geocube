@@ -1,24 +1,25 @@
 package com.geocube.activities.loginRegisterActivities;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.Toast;
-import com.geocube.ProjectConstants;
 import com.geocube.R;
 import com.geocube.activities.mainUserActivities.MainUserActivity;
 import org.json.JSONObject;
 import ru.spb.osll.json.JsonLoginRequest;
 import ru.spb.osll.json.JsonLoginResponse;
-
 import java.util.UUID;
+
+import static com.geocube.ProjectConstants.*;
 
 public class LoginActivity extends Activity {
     private EditText loginText;
@@ -26,7 +27,8 @@ public class LoginActivity extends Activity {
     private Button loginButton;
     private CheckBox rememberMe;
     private SharedPreferences settings;
-    private static final String PREFS_NAME = "loginSettings";
+    private String loginSaved;
+    private String passSaved;
     String authToken;
 
     @Override
@@ -38,18 +40,22 @@ public class LoginActivity extends Activity {
     }
 
     public void initViews() {
+      settings = getSharedPreferences(PREFS_SETTINGS_LOGIN_NAME, MODE_PRIVATE);
+      loginSaved = settings.getString("login", "");
+      passSaved = settings.getString("pass", "");
+      authToken = settings.getString("token", "");
+
       loginText = (EditText) findViewById(R.id.loginText);
       passText = (EditText) findViewById(R.id.passText);
       loginButton = (Button) findViewById(R.id.loginButton);
       rememberMe = (CheckBox) findViewById(R.id.rememberMeCheck);
       rememberMe.setChecked(true);
 
-        //-------
-        loginText.setText("Mark");
-        passText.setText("test");
-        //-----
+      //-------
+      loginText.setText(loginSaved);
+      passText.setText(passSaved);
+      //-----
 
-      authToken = checkIsRemembered();
 
       loginButton.setOnClickListener(new View.OnClickListener() {
           @Override
@@ -57,9 +63,6 @@ public class LoginActivity extends Activity {
               String login = loginText.getText().toString();
               String pass = passText.getText().toString();
 
-              settings = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
-              String loginSaved = settings.getString("login", "");
-              String passSaved = settings.getString("pass", "");
 
               if (!authToken.equals("") && loginSaved.equals(login) && passSaved.equals(pass)) {
                   MainUserActivity.setAuthToken(authToken);
@@ -68,7 +71,7 @@ public class LoginActivity extends Activity {
                   StrictMode.ThreadPolicy tp = StrictMode.ThreadPolicy.LAX;
                   StrictMode.setThreadPolicy(tp);
 
-                  JsonLoginRequest loginReques = new JsonLoginRequest(login, pass, ProjectConstants.SERVER_URL);
+                  JsonLoginRequest loginReques = new JsonLoginRequest(login, pass, SERVER_URL);
                   JSONObject r = loginReques.doRequest();
                   JsonLoginResponse responce = new JsonLoginResponse();
 
@@ -83,7 +86,6 @@ public class LoginActivity extends Activity {
 
                   if (rememberMe.isChecked()) {
                       SharedPreferences.Editor editSettings = settings.edit();
-                      editSettings.clear();
                       editSettings.putString("login", login);
                       editSettings.putString("pass", pass);
                       editSettings.putString("token", authToken);
@@ -96,19 +98,5 @@ public class LoginActivity extends Activity {
               startActivity(in);
           }
       });
-    }
-
-    public String checkIsRemembered() {
-        settings = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
-        String login = settings.getString("login", "");
-        String pass = settings.getString("pass", "");
-        String authToken = settings.getString("token", "");
-
-        if (!authToken.equals("") && !login.equals("") && !pass.equals("")) {
-            loginText.setText(login);
-            passText.setText(pass);
-        }
-
-        return authToken;
     }
 }

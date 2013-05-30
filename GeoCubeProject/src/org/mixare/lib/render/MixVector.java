@@ -131,11 +131,11 @@ public class MixVector implements Parcelable{
 	}
 
 	public float length() {
-		return (float) FloatMath.sqrt(x * x + y * y + z * z);
+		return FloatMath.sqrt(x * x + y * y + z * z);
 	}
 
 	public float length2D() {
-		return (float) FloatMath.sqrt(x * x + z * z);
+		return FloatMath.sqrt(x * x + z * z);
 	}
 
 	public void norm() {

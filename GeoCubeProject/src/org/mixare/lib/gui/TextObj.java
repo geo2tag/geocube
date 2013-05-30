@@ -152,16 +152,7 @@ public class TextObj implements ScreenObj, Parcelable{
 
 		for (int i = 0; i < lines.length; i++) {
 			String line = lines[i];
-
-			// stroke
-/* 			dw.setFill(false);
-			dw.setStrokeWidth(4);
-		    dw.setColor(textShadowColor);
-			dw.paintText(pad, pad + lineHeight * i + dw.getTextAsc(), line);
-*/
-
 			// actual text
-
 			dw.setFill(true);
 			dw.setStrokeWidth(0);
 			dw.setColor(textColor);

@@ -117,7 +117,7 @@ public class RemoteDataHandler extends DataHandler implements DataProcessor{
 	private Marker fillExtraMarkerPrimitiveProperties(Marker marker, Map<String, PrimitiveProperty> properties){
 		Iterator<Entry<String, PrimitiveProperty>> it = properties.entrySet().iterator();
 		while(it.hasNext()){
-			Entry<String, PrimitiveProperty> pairs = (Entry<String, PrimitiveProperty>)it.next();
+			Entry<String, PrimitiveProperty> pairs = it.next();
 			marker.setExtras(pairs.getKey(), pairs.getValue());
 		}
 		return marker;

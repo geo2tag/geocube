@@ -226,50 +226,11 @@ public class DataSource extends Activity {
 	}
 
 	public int getColor() {
-		int ret;
-		switch (this.type) {
-//		case BUZZ:
-//			ret = Color.rgb(4, 228, 20);
-//			break;
-//		case TWITTER:
-//			ret = Color.rgb(50, 204, 255);
-//			break;
-//		case WIKIPEDIA:
-//			ret = Color.RED;
-//			break;
-//		case ARENA:
-//			ret = Color.RED;
-//			break;
-		default:
-			ret = Color.RED;
-			break;
-		}
-		return ret;
+		return Color.RED;
 	}
 
 	public int getDataSourceIcon() {
-		int ret;
-		switch (this.type) {
-//		case BUZZ:
-//			ret = R.drawable.buzz;
-//			break;
-//		case TWITTER:
-//			ret = R.drawable.twitter;
-//			break;
-//		case OSM:
-//			ret = R.drawable.logo;
-//			break;
-//		case WIKIPEDIA:
-//			ret = R.drawable.logo;
-//			break;
-//		case ARENA:
-//			ret = R.drawable.arena;
-//			break;
-		default:
-			ret = R.drawable.ic_launcher;
-			break;
-		}
-		return ret;
+		return R.drawable.ic_launcher;
 	}
 
 	public int getDisplayId() {

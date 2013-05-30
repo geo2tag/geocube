@@ -270,103 +270,103 @@ public class MixListView extends ListActivity {
  * The ListItemAdapter is can store properties of list items, like background or
  * text color
  */
-class ListItemAdapter extends BaseAdapter {
-
-	private MixListView mixListView;
-
-	private LayoutInflater myInflater;
-	static ViewHolder holder;
-	private int[] bgcolors = new int[] {0,0,0,0,0};
-	private int[] textcolors = new int[] {Color.WHITE,Color.WHITE,Color.WHITE,Color.WHITE,Color.WHITE};
-	private int[] descriptioncolors = new int[] {Color.GRAY,Color.GRAY,Color.GRAY,Color.GRAY,Color.GRAY};
-
-	public static int itemPosition =0;
-
-	public ListItemAdapter(MixListView mixListView) {
-		this.mixListView = mixListView;
-		myInflater = LayoutInflater.from(mixListView);
-	}
-
-	@Override
-	public View getView(final int position, View convertView, ViewGroup parent) {
-		itemPosition = position;
-		if (convertView==null) {
-			convertView = myInflater.inflate(R.layout.main, null);
-
-			holder = new ViewHolder();
-			holder.text = (TextView) convertView.findViewById(R.id.list_text);
-			holder.description = (TextView) convertView.findViewById(R.id.description_text);
-
-			convertView.setTag(holder);
-		}
-		else{
-			holder = (ViewHolder) convertView.getTag();
-		}
-
-
-		holder.text.setPadding(20, 8, 0, 0);
-		holder.description.setPadding(20, 40, 0, 0);
-
-		holder.text.setText(mixListView.getDataSourceMenu().get(position));
-		holder.description.setText(mixListView.getDataSourceDescription().get(position));
-
-		int colorPos = position % bgcolors.length;
-		convertView.setBackgroundColor(bgcolors[colorPos]);
-		holder.text.setTextColor(textcolors[colorPos]);
-		holder.description.setTextColor(descriptioncolors[colorPos]);
-
-		return convertView;
-	}
-
-	public void changeColor(int index, int bgcolor, int textcolor){
-		if (index < bgcolors.length) {
-			bgcolors[index]=bgcolor;
-			textcolors[index]= textcolor;
-		}
-		else
-			Log.d("Color Error", "too large index");
-	}
-
-	public void colorSource(String source){
-		for (int i = 0; i < bgcolors.length; i++) {
-			bgcolors[i]=0;
-			textcolors[i]=Color.WHITE;
-		}
-
-		if (source.equals("Wikipedia"))
-			changeColor(0, Color.WHITE, Color.DKGRAY);
-        else if (source.equals("Geo2tag"))
-            changeColor(0, Color.RED, Color.DKGRAY);
-//		else if (source.equals("Twitter"))
-//			changeColor(1, Color.WHITE, Color.DKGRAY);
-//		else if (source.equals("Buzz"))
-//			changeColor(2, Color.WHITE, Color.DKGRAY);
-//		else if (source.equals("OpenStreetMap"))
-//			changeColor(3, Color.WHITE, Color.DKGRAY);
-//		else if (source.equals("OwnURL"))
-//			changeColor(4, Color.WHITE, Color.DKGRAY);
-//		else if (source.equals("ARENA"))
-//			changeColor(5, Color.WHITE, Color.DKGRAY);
+//class ListItemAdapter extends BaseAdapter {
 //
-	}
-
-	@Override
-	public int getCount() {
-		return mixListView.getDataSourceMenu().size();
-	}
-
-	@Override
-	public Object getItem(int position) {
-		return this;
-	}
-
-	@Override
-	public long getItemId(int position) {
-		return position;
-	}
-
-	private class ViewHolder {
-		TextView text;
-		TextView description;
-	}
-}
+//	private MixListView mixListView;
+//
+//	private LayoutInflater myInflater;
+//	static ViewHolder holder;
+//	private int[] bgcolors = new int[] {0,0,0,0,0};
+//	private int[] textcolors = new int[] {Color.WHITE,Color.WHITE,Color.WHITE,Color.WHITE,Color.WHITE};
+//	private int[] descriptioncolors = new int[] {Color.GRAY,Color.GRAY,Color.GRAY,Color.GRAY,Color.GRAY};
+//
+//	public static int itemPosition =0;
+//
+//	public ListItemAdapter(MixListView mixListView) {
+//		this.mixListView = mixListView;
+//		myInflater = LayoutInflater.from(mixListView);
+//	}
+//
+//	@Override
+//	public View getView(final int position, View convertView, ViewGroup parent) {
+//		itemPosition = position;
+//		if (convertView==null) {
+//			convertView = myInflater.inflate(R.layout.main, null);
+//
+//			holder = new ViewHolder();
+//			holder.text = (TextView) convertView.findViewById(R.id.list_text);
+//			holder.description = (TextView) convertView.findViewById(R.id.description_text);
+//
+//			convertView.setTag(holder);
+//		}
+//		else{
+//			holder = (ViewHolder) convertView.getTag();
+//		}
+//
+//
+//		holder.text.setPadding(20, 8, 0, 0);
+//		holder.description.setPadding(20, 40, 0, 0);
+//
+//		holder.text.setText(mixListView.getDataSourceMenu().get(position));
+//		holder.description.setText(mixListView.getDataSourceDescription().get(position));
+//
+//		int colorPos = position % bgcolors.length;
+//		convertView.setBackgroundColor(bgcolors[colorPos]);
+//		holder.text.setTextColor(textcolors[colorPos]);
+//		holder.description.setTextColor(descriptioncolors[colorPos]);
+//
+//		return convertView;
+//	}
+//
+//	public void changeColor(int index, int bgcolor, int textcolor){
+//		if (index < bgcolors.length) {
+//			bgcolors[index]=bgcolor;
+//			textcolors[index]= textcolor;
+//		}
+//		else
+//			Log.d("Color Error", "too large index");
+//	}
+//
+//	public void colorSource(String source){
+//		for (int i = 0; i < bgcolors.length; i++) {
+//			bgcolors[i]=0;
+//			textcolors[i]=Color.WHITE;
+//		}
+//
+//		if (source.equals("Wikipedia"))
+//			changeColor(0, Color.WHITE, Color.DKGRAY);
+//        else if (source.equals("Geo2tag"))
+//            changeColor(0, Color.RED, Color.DKGRAY);
+////		else if (source.equals("Twitter"))
+////			changeColor(1, Color.WHITE, Color.DKGRAY);
+////		else if (source.equals("Buzz"))
+////			changeColor(2, Color.WHITE, Color.DKGRAY);
+////		else if (source.equals("OpenStreetMap"))
+////			changeColor(3, Color.WHITE, Color.DKGRAY);
+////		else if (source.equals("OwnURL"))
+////			changeColor(4, Color.WHITE, Color.DKGRAY);
+////		else if (source.equals("ARENA"))
+////			changeColor(5, Color.WHITE, Color.DKGRAY);
+////
+//	}
+//
+//	@Override
+//	public int getCount() {
+//		return mixListView.getDataSourceMenu().size();
+//	}
+//
+//	@Override
+//	public Object getItem(int position) {
+//		return this;
+//	}
+//
+//	@Override
+//	public long getItemId(int position) {
+//		return position;
+//	}
+//
+//	private class ViewHolder {
+//		TextView text;
+//		TextView description;
+//	}
+//}
